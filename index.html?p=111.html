@@ -179,6 +179,62 @@ window._wpemojiSettings = {
 
 /** End Block Kit CSS: 71-3-d415519effd9e11f35d2438c58ea7ebf **/
 
+
+/* FadeIn from Left Animation */
+.fadeInLeftElement {
+	opacity: 0;
+	transform: translateX(-100px);
+	transition: all 0.8s ease-out;
+}
+
+.fadeInLeftElement.fade-in-active {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+/* FadeIn from Right Animation */
+.fadeInRightElement {
+	opacity: 0;
+	transform: translateX(100px);
+	transition: all 0.8s ease-out;
+}
+
+.fadeInRightElement.fade-in-active {
+	opacity: 1;
+	transform: translateX(0);
+}
+
+/* Elementor invisible class support */
+.elementor-invisible {
+	opacity: 0;
+	transform: translateY(50px);
+	transition: all 0.6s ease-out;
+}
+
+.elementor-invisible.fade-in-active {
+	opacity: 1;
+	transform: translateY(0);
+}
+
+/* Timeline specific animations */
+.bdt-timeline .left-part .fadeInLeftElement {
+	opacity: 0;
+	transform: translateX(-50px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.bdt-timeline .right-part .fadeInRightElement {
+	opacity: 0;
+	transform: translateX(50px);
+	transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.bdt-timeline .left-part .fadeInLeftElement.fade-in-active,
+.bdt-timeline .right-part .fadeInRightElement.fade-in-active {
+	opacity: 1;
+	transform: translateX(0);
+}
+
 		</style>
 		</head>
 <body class="wp-singular page-template-default page page-id-111 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor theme-default jet-mega-menu-location elementor-default elementor-kit-26 elementor-page elementor-page-111">
@@ -448,7 +504,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-03943df" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-03943df fadeInLeftElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -498,7 +554,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-44e0a91" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-44e0a91 fadeInRightElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -536,7 +592,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-7c1a3af" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-7c1a3af fadeInLeftElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -586,7 +642,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-cdeb344" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-cdeb344 fadeInRightElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -624,7 +680,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-59abdc6" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-59abdc6 fadeInLeftElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -674,7 +730,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-b0edff4" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-b0edff4 fadeInRightElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -712,7 +768,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-bfe3c4a" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-bfe3c4a fadeInLeftElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -762,7 +818,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-02c1602" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-02c1602 fadeInRightElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -800,7 +856,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-27b949e" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-27b949e fadeInLeftElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -850,7 +906,7 @@ window._wpemojiSettings = {
 									</span>
 
 								</div>
-										<div class="bdt-timeline-item-main elementor-repeater-item-bb0f6a3" >
+										<div class="bdt-timeline-item-main elementor-repeater-item-bb0f6a3 fadeInRightElement" >
 			<span class="bdt-timeline-arrow"></span>
 
 			
@@ -900,8 +956,8 @@ window._wpemojiSettings = {
 		<div class="elementor-element elementor-element-3eda9b4 e-con-full e-flex e-con e-child" data-id="3eda9b4" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
 				<div class="elementor-element elementor-element-8b9b8d4 elementor-widget elementor-widget-image" data-id="8b9b8d4" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-																<a href="wp-content/uploads/2024/11/1.-.-_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="การให้บริการรับชำระเงินแทน ภายใต้การกำกับของธนาคารแห่งประเทศไทย" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTE3NSwidXJsIjoiaHR0cHM6XC9cL25jLmNvLnRoXC9saXZlZGVtb1wvcG9seWN1YmVcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzExXC8xLlx1MGU0M1x1MGUxYVx1MGUyZFx1MGUxOVx1MGUzOFx1MGUwZFx1MGUzMlx1MGUxNS1cdTBlMWFcdTBlNTMuXHUwZTUzLVx1MGU1MFx1MGU1MFx1MGU1OS1cdTBlNTJcdTBlNTVcdTBlNTZcdTBlNTRfXHUwZTAxXHUwZTMyXHUwZTIzXHUwZTQzXHUwZTJiXHUwZTQ5XHUwZTFhXHUwZTIzXHUwZTM0XHUwZTAxXHUwZTMyXHUwZTIzXHUwZTIzXHUwZTMxXHUwZTFhXHUwZTBhXHUwZTMzXHUwZTIzLmpwZyJ9">
-							<img decoding="async" width="800" height="566" src="wp-content/uploads/2024/11/1.-.-_-1024x724.jpg" class="attachment-large size-large wp-image-1175" alt="" srcset="wp-content/uploads/2024/11/1.-.-_-1024x724.jpg 1024w, wp-content/uploads/2024/11/1.-.-_-300x212.jpg 300w, wp-content/uploads/2024/11/1.-.-_-768x543.jpg 768w, wp-content/uploads/2024/11/1.-.-_.jpg 1500w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+																<a href="wp-content/uploads/2024/11/1.license-b3-3-009-2564-payment-service.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="การให้บริการรับชำระเงินแทน ภายใต้การกำกับของธนาคารแห่งประเทศไทย" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTE3NSwidXJsIjoiaHR0cHM6XC9cL25jLmNvLnRoXC9saXZlZGVtb1wvcG9seWN1YmVcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzExXC8xLlx1MGU0M1x1MGUxYVx1MGUyZFx1MGUxOVx1MGUzOFx1MGUwZFx1MGUzMlx1MGUxNS1cdTBlMWFcdTBlNTMuXHUwZTUzLVx1MGU1MFx1MGU1MFx1MGU1OS1cdTBlNTJcdTBlNTVcdTBlNTZcdTBlNTRfXHUwZTAxXHUwZTMyXHUwZTIzXHUwZTQzXHUwZTJiXHUwZTQ5XHUwZTFhXHUwZTIzXHUwZTM0XHUwZTAxXHUwZTMyXHUwZTIzXHUwZTIzXHUwZTMxXHUwZTFhXHUwZTBhXHUwZTMzXHUwZTIzLmpwZyJ9">
+							<img decoding="async" width="800" height="566" src="wp-content/uploads/2024/11/1.license-b3-3-009-2564-payment-service-1024x724.jpg" class="attachment-large size-large wp-image-1175" alt="" srcset="wp-content/uploads/2024/11/1.license-b3-3-009-2564-payment-service-1024x724.jpg 1024w, wp-content/uploads/2024/11/1.license-b3-3-009-2564-payment-service-300x212.jpg 300w, wp-content/uploads/2024/11/1.license-b3-3-009-2564-payment-service-768x543.jpg 768w, wp-content/uploads/2024/11/1.license-b3-3-009-2564-payment-service.jpg 1500w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-b97a791 elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="b97a791" data-element_type="widget" data-widget_type="heading.default">
@@ -912,8 +968,8 @@ window._wpemojiSettings = {
 		<div class="elementor-element elementor-element-d7044a1 e-con-full e-flex e-con e-child" data-id="d7044a1" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
 				<div class="elementor-element elementor-element-911ad37 elementor-widget elementor-widget-image" data-id="911ad37" data-element_type="widget" data-widget_type="image.default">
 				<div class="elementor-widget-container">
-																<a href="wp-content/uploads/2024/11/2.-.-_.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="การให้บริการสนับสนุนบริการแก่ผู้รับบัตร​" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTE3NCwidXJsIjoiaHR0cHM6XC9cL25jLmNvLnRoXC9saXZlZGVtb1wvcG9seWN1YmVcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzExXC8yLlx1MGU0M1x1MGUxYVx1MGUyZFx1MGUxOVx1MGUzOFx1MGUwZFx1MGUzMlx1MGUxNS1cdTBlMWFcdTBlNTMuXHUwZTUyLVx1MGU1MFx1MGU1MFx1MGU1NS1cdTBlNTJcdTBlNTVcdTBlNTZcdTBlNTRfXHUwZTAxXHUwZTMyXHUwZTIzXHUwZTQzXHUwZTJiXHUwZTQ5XHUwZTFhXHUwZTIzXHUwZTM0XHUwZTAxXHUwZTMyXHUwZTIzXHUwZTJhXHUwZTE5XHUwZTMxXHUwZTFhXHUwZTJhXHUwZTE5LmpwZyJ9">
-							<img loading="lazy" decoding="async" width="800" height="566" src="wp-content/uploads/2024/11/2.-.-_-1024x724.jpg" class="attachment-large size-large wp-image-1174" alt="" srcset="wp-content/uploads/2024/11/2.-.-_-1024x724.jpg 1024w, wp-content/uploads/2024/11/2.-.-_-300x212.jpg 300w, wp-content/uploads/2024/11/2.-.-_-768x543.jpg 768w, wp-content/uploads/2024/11/2.-.-_.jpg 1500w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
+																<a href="wp-content/uploads/2024/11/2.license-b3-2-005-2564-support-service.jpg" data-elementor-open-lightbox="yes" data-elementor-lightbox-title="การให้บริการสนับสนุนบริการแก่ผู้รับบัตร​" data-e-action-hash="#elementor-action%3Aaction%3Dlightbox%26settings%3DeyJpZCI6MTE3NCwidXJsIjoiaHR0cHM6XC9cL25jLmNvLnRoXC9saXZlZGVtb1wvcG9seWN1YmVcL3dwLWNvbnRlbnRcL3VwbG9hZHNcLzIwMjRcLzExXC8yLlx1MGU0M1x1MGUxYVx1MGUyZFx1MGUxOVx1MGUzOFx1MGUwZFx1MGUzMlx1MGUxNS1cdTBlMWFcdTBlNTMuXHUwZTUyLVx1MGU1MFx1MGU1MFx1MGU1NS1cdTBlNTJcdTBlNTVcdTBlNTZcdTBlNTRfXHUwZTAxXHUwZTMyXHUwZTIzXHUwZTQzXHUwZTJiXHUwZTQ5XHUwZTFhXHUwZTIzXHUwZTM0XHUwZTAxXHUwZTMyXHUwZTIzXHUwZTJhXHUwZTE5XHUwZTMxXHUwZTFhXHUwZTJhXHUwZTE5LmpwZyJ9">
+							<img loading="lazy" decoding="async" width="800" height="566" src="wp-content/uploads/2024/11/2.license-b3-2-005-2564-support-service-1024x724.jpg" class="attachment-large size-large wp-image-1174" alt="" srcset="wp-content/uploads/2024/11/2.license-b3-2-005-2564-support-service-1024x724.jpg 1024w, wp-content/uploads/2024/11/2.license-b3-2-005-2564-support-service-300x212.jpg 300w, wp-content/uploads/2024/11/2.license-b3-2-005-2564-support-service-768x543.jpg 768w, wp-content/uploads/2024/11/2.license-b3-2-005-2564-support-service.jpg 1500w" sizes="(max-width: 800px) 100vw, 800px" />								</a>
 															</div>
 				</div>
 				<div class="elementor-element elementor-element-a737b4b elementor-hidden-mobile elementor-widget elementor-widget-heading" data-id="a737b4b" data-element_type="widget" data-widget_type="heading.default">
@@ -1973,12 +2029,77 @@ var jetElements = {
 <script src="wp-content/plugins/jet-menu/includes/elementor/assets/public/js/widgets-scripts.js%3Fver=2.4.10" id="jet-menu-elementor-widgets-scripts-js"></script>
 <script id="jet-blog-js-extra">
 var JetBlogSettings = {
-  "ajaxurl":""
+  "ajaxurl":"https:\/\/nc.co.th\/livedemo\/polycube\/about\/?nocache=1756304428&jet_blog_ajax=1"
 };
 
 </script>
 <script src="wp-content/plugins/jet-blog/assets/js/jet-blog.min.js%3Fver=2.4.3.1" id="jet-blog-js"></script>
 
-
+<script>
+// FadeIn Animation System with Intersection Observer API
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all elements with animation classes
+    const fadeInLeftElements = document.querySelectorAll('.fadeInLeftElement');
+    const fadeInRightElements = document.querySelectorAll('.fadeInRightElement');
+    
+    // Create intersection observer for animations
+    const observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry, index) {
+            if (entry.isIntersecting) {
+                // Add staggered delay for sequential animation effect
+                setTimeout(function() {
+                    entry.target.classList.add('fade-in-active');
+                }, index * 200); // 200ms increments for staggered delays
+                
+                // Stop observing this element after animation triggers
+                observer.unobserve(entry.target);
+            }
+        });
+    }, {
+        // Trigger when 20% of the element is visible
+        threshold: 0.2,
+        // Add margin to trigger slightly before element comes into view
+        rootMargin: '50px 0px'
+    });
+    
+    // Observe all fadeInLeft elements
+    fadeInLeftElements.forEach(function(element) {
+        observer.observe(element);
+    });
+    
+    // Observe all fadeInRight elements  
+    fadeInRightElements.forEach(function(element) {
+        observer.observe(element);
+    });
+    
+    // Timeline specific animation handling
+    const timelineLeftParts = document.querySelectorAll('.left-part .fadeInLeftElement');
+    const timelineRightParts = document.querySelectorAll('.right-part .fadeInRightElement');
+    
+    // Create specific observer for timeline elements with different animations
+    const timelineObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry, index) {
+            if (entry.isIntersecting) {
+                setTimeout(function() {
+                    entry.target.classList.add('fade-in-active');
+                }, index * 200);
+                timelineObserver.unobserve(entry.target);
+            }
+        });
+    }, {
+        threshold: 0.3,
+        rootMargin: '100px 0px'
+    });
+    
+    // Observe timeline elements
+    timelineLeftParts.forEach(function(element) {
+        timelineObserver.observe(element);
+    });
+    
+    timelineRightParts.forEach(function(element) {
+        timelineObserver.observe(element);
+    });
+});
+</script>
 </body>
 </html>
