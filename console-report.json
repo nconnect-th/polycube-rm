@@ -1,0 +1,796 @@
+[
+  {
+    "page": "en.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "faq.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "faq/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "02-2/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "feed/index.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "news/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "about/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "edc-is/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/faq/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "5-e-com/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "contact/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/02-2/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/feed/index.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      },
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "psps-is/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "wp-json/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "5-mobile/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "benefits/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/about/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=3.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "products/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "02-2/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/edc-is/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "vs-credit/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/5-e-com/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/psps-is/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/wp-json/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=111.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=113.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=117.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=267.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=343.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=345.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=517.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=519.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=521.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=523.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=525.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=579.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=614.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=721.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "edc-is/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/5-mobile/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/benefits/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=1449.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2206.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2270.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2299.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2327.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2336.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2348.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2364.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "index.html?p=2404.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "5-e-com/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/02-2/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/vs-credit/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "psps-is/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "5-mobile/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "benefits/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "comments/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=111.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=267.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=343.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=345.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=517.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=519.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=521.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=523.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=525.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=579.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=614.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "point-of-sale/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "elementor-2336/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "elementor-2348/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "elementor-2364/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/edc-is/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=1449.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2206.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2270.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2299.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2327.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2336.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2348.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2364.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/index.html?p=2404.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Failed to load resource: the server responded with a status of 404 (File not found)"
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "privacy-policy/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "vs-credit/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-donate-fund/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/5-e-com/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/psps-is/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/5-mobile/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/benefits/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/comments/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/point-of-sale/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/elementor-2336/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/elementor-2348/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/elementor-2364/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/vs-credit/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-donate-fund/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "node_modules/tslib/tslib.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "point-of-sale/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "elementor-2336/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "elementor-2348/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "elementor-2364/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "privacy-policy/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-donate-fund/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-donate-mask-staff/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/point-of-sale/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-donate-consumables/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/elementor-2336/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/elementor-2348/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/elementor-2364/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "node_modules/tslib/tslib.es6.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-donate-fund/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-donate-mask-staff/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "products/pos-application/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-salesboost-easyprofit/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-donate-consumables/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-donate-mask-staff/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-donate-consumables/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/products/pos-application/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-salesboost-easyprofit/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-donate-mask-staff/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "atv-salesboost-easyprofit/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-donate-consumables/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "products/electronic-data-capture/index.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Error: <svg> attribute width: Expected length, \"undefined\"."
+      },
+      {
+        "type": "error",
+        "text": "Error: <svg> attribute height: Expected length, \"undefined\"."
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "en/atv-salesboost-easyprofit/feed/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/products/electronic-data-capture/index.html",
+    "errors": [
+      {
+        "type": "error",
+        "text": "Error: <svg> attribute width: Expected length, \"undefined\"."
+      },
+      {
+        "type": "error",
+        "text": "Error: <svg> attribute height: Expected length, \"undefined\"."
+      }
+    ],
+    "warnings": []
+  },
+  {
+    "page": "products/dynamic-currency-conversion-dcc/index.html",
+    "errors": [],
+    "warnings": []
+  },
+  {
+    "page": "en/products/dynamic-currency-conversion-dcc/index.html",
+    "errors": [],
+    "warnings": []
+  }
+]

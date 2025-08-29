@@ -1,0 +1,1606 @@
+{
+  "html_pages": [
+    {
+      "page": "02-2/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "5-e-com/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "5-mobile/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "about/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%202-3&zoom=15",
+          "domain": "www.google.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "atv-donate-consumables/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "atv-donate-fund/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "atv-donate-mask-staff/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "atv-salesboost-easyprofit/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "benefits/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "contact/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%202-3&zoom=10",
+          "domain": "www.google.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "edc-is/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "elementor-2336/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "elementor-2348/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "elementor-2364/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/02-2/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/5-e-com/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/5-mobile/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/about/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%202-3&zoom=15",
+          "domain": "www.google.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/atv-donate-consumables/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/atv-donate-fund/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/atv-donate-mask-staff/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/atv-salesboost-easyprofit/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/benefits/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/edc-is/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/elementor-2336/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/elementor-2348/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/elementor-2364/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/faq/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=111.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%202-3&zoom=15",
+          "domain": "www.google.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=1449.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2206.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2270.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2299.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2327.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2336.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2348.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2364.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=2404.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=267.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=343.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=345.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=517.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=519.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=521.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=523.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=525.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=579.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/index.html?p=614.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/point-of-sale/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/products/dynamic-currency-conversion-dcc/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/products/electronic-data-capture/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/products/pos-application/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/psps-is/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en/vs-credit/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "en.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://fonts.googleapis.com/css?display=swap&family=Outfit%3A300%2C400%7CBree+Serif%3A300%2C400%7CPrompt%3A300%2C400%7CMontserrat%3A300%2C400",
+          "domain": "fonts.googleapis.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "faq/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "faq.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://fonts.googleapis.com/css?display=swap&family=Bree+Serif%3A300%2C400%7COutfit%3A300%2C400%7CPrompt%3A300%2C400%7CMontserrat%3A300%2C400",
+          "domain": "fonts.googleapis.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=111.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%202-3&zoom=15",
+          "domain": "www.google.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=113.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=117.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=%E0%B8%AD%E0%B8%B2%E0%B8%84%E0%B8%B2%E0%B8%A3%E0%B8%9E%E0%B8%A3%E0%B9%89%E0%B8%AD%E0%B8%A1%E0%B8%9E%E0%B8%B1%E0%B8%99%E0%B8%98%E0%B8%B8%E0%B9%8C%202-3&zoom=10",
+          "domain": "www.google.com"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=1449.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2206.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2270.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2299.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2327.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2336.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2348.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2364.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=2404.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=267.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=3.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=343.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=345.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=517.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=519.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=521.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=523.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=525.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=579.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=614.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "index.html?p=721.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "news/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "point-of-sale/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "privacy-policy/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "products/dynamic-currency-conversion-dcc/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "products/electronic-data-capture/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "products/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "products/pos-application/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "psps-is/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    },
+    {
+      "page": "vs-credit/index.html",
+      "externals": [
+        {
+          "tag": "link",
+          "attr": "href",
+          "url": "https://gmpg.org/xfn/11",
+          "domain": "gmpg.org"
+        },
+        {
+          "tag": "iframe",
+          "attr": "src",
+          "url": "https://www.google.com/maps/embed/v1/place?key=AIzaSyBVzZ_ftwDHL43Txeqd385MxiKSPIlq5Zg&q=polycube&zoom=14",
+          "domain": "www.google.com"
+        }
+      ]
+    }
+  ],
+  "html_domains": {
+    "gmpg.org": 91,
+    "www.google.com": 97,
+    "fonts.googleapis.com": 2
+  },
+  "css_files": [],
+  "css_domains": {}
+}
