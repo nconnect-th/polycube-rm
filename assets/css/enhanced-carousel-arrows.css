@@ -1,0 +1,196 @@
+/* Enhanced Carousel Navigation Arrows */
+
+/* Smart Slider arrows enhancement */
+#n2-ss-2 .nextend-arrow {
+    opacity: 1 !important;
+    visibility: visible !important;
+    background: rgba(0, 0, 0, 0.6) !important;
+    border-radius: 50%;
+    width: 60px !important;
+    height: 60px !important;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(5px);
+}
+
+#n2-ss-2 .nextend-arrow:hover {
+    background: rgba(0, 0, 0, 0.8) !important;
+    transform: scale(1.1);
+}
+
+#n2-ss-2 .nextend-arrow-previous {
+    left: 20px !important;
+}
+
+#n2-ss-2 .nextend-arrow-next {
+    right: 20px !important;
+}
+
+#n2-ss-2 .nextend-arrow .nextend-arrow-arrow {
+    width: 32px !important;
+    height: 32px !important;
+    background-size: 24px 24px !important;
+    filter: brightness(0) invert(1);
+}
+
+/* News carousel arrows enhancement */
+.bdt-ep-carousel .bdt-navigation-prev,
+.bdt-ep-carousel .bdt-navigation-next {
+    position: absolute !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+    width: 50px !important;
+    height: 50px !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border: 2px solid #007cba !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    z-index: 10 !important;
+    cursor: pointer !important;
+    transition: all 0.3s ease !important;
+    font-size: 20px !important;
+    color: #007cba !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.bdt-ep-carousel .bdt-navigation-prev:hover,
+.bdt-ep-carousel .bdt-navigation-next:hover {
+    background: #007cba !important;
+    color: white !important;
+    transform: translateY(-50%) scale(1.1) !important;
+    box-shadow: 0 4px 15px rgba(0, 124, 186, 0.3) !important;
+}
+
+.bdt-ep-carousel .bdt-navigation-prev {
+    left: -25px !important;
+}
+
+.bdt-ep-carousel .bdt-navigation-next {
+    right: -25px !important;
+}
+
+.bdt-ep-carousel .bdt-navigation-prev i,
+.bdt-ep-carousel .bdt-navigation-next i {
+    font-size: 18px !important;
+}
+
+/* Container positioning to accommodate arrows */
+.bdt-ep-carousel {
+    position: relative !important;
+    margin: 0 50px !important;
+}
+
+/* Services section image boxes - add hover navigation */
+.elementor-widget-image-box {
+    position: relative;
+    overflow: hidden;
+}
+
+.elementor-widget-image-box::before,
+.elementor-widget-image-box::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 40px;
+    background: rgba(0, 124, 186, 0.8);
+    border-radius: 50%;
+    opacity: 0;
+    transition: all 0.3s ease;
+    z-index: 5;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.elementor-widget-image-box:hover::before,
+.elementor-widget-image-box:hover::after {
+    opacity: 1;
+}
+
+.elementor-widget-image-box::before {
+    left: 10px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24"><path d="M15.41 7.41L14 6l-6 6 6 6 1.41-1.41L10.83 12z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+.elementor-widget-image-box::after {
+    right: 10px;
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" fill="white" viewBox="0 0 24 24"><path d="M8.59 16.59L10 18l6-6-6-6-1.41 1.41L13.17 12z"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px;
+}
+
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    #n2-ss-2 .nextend-arrow {
+        width: 45px !important;
+        height: 45px !important;
+    }
+    
+    #n2-ss-2 .nextend-arrow-previous {
+        left: 10px !important;
+    }
+    
+    #n2-ss-2 .nextend-arrow-next {
+        right: 10px !important;
+    }
+    
+    .bdt-ep-carousel {
+        margin: 0 30px !important;
+    }
+    
+    .bdt-ep-carousel .bdt-navigation-prev,
+    .bdt-ep-carousel .bdt-navigation-next {
+        width: 40px !important;
+        height: 40px !important;
+    }
+    
+    .bdt-ep-carousel .bdt-navigation-prev {
+        left: -20px !important;
+    }
+    
+    .bdt-ep-carousel .bdt-navigation-next {
+        right: -20px !important;
+    }
+}
+
+/* Ensure arrows are always visible and clickable */
+.n2-ss-widget-hidden {
+    opacity: 1 !important;
+    visibility: visible !important;
+    pointer-events: all !important;
+}
+
+.swiper-button-disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+}
+
+.swiper-button-disabled:hover {
+    transform: translateY(-50%) !important;
+    background: rgba(128, 128, 128, 0.5) !important;
+}
+
+/* Add smooth slide transition */
+.swiper-wrapper {
+    transition-timing-function: cubic-bezier(0.25, 0.46, 0.45, 0.94) !important;
+}
+
+/* Focus states for accessibility */
+.bdt-navigation-prev:focus,
+.bdt-navigation-next:focus,
+#n2-ss-2 .nextend-arrow:focus {
+    outline: 3px solid #007cba !important;
+    outline-offset: 2px !important;
+}
