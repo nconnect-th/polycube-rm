@@ -1,0 +1,183 @@
+/* Blog Carousel Fix Styles */
+
+/* การปรับปรุง carousel structure สำหรับ blog items */
+.bdt-ep-carousel .category-blog {
+    transition: transform 0.3s ease;
+}
+
+/* ปรับปรุง navigation buttons */
+.bdt-ep-carousel .bdt-navigation-next,
+.bdt-ep-carousel .bdt-navigation-prev {
+    transition: opacity 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 10;
+}
+
+.bdt-ep-carousel .bdt-navigation-next:hover,
+.bdt-ep-carousel .bdt-navigation-prev:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.bdt-ep-carousel .bdt-navigation-next.swiper-button-disabled,
+.bdt-ep-carousel .bdt-navigation-prev.swiper-button-disabled {
+    opacity: 0.5 !important;
+    cursor: not-allowed !important;
+    pointer-events: auto !important;
+}
+
+/* ปรับปรุง swiper wrapper */
+.bdt-ep-carousel .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+    transition: transform 0.5s ease-in-out;
+    will-change: transform;
+}
+
+/* ปรับปรุง swiper slides */
+.bdt-ep-carousel .swiper-slide {
+    flex-shrink: 0;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Blog carousel items */
+.bdt-ep-carousel .bdt-ep-carousel-item.category-blog {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bdt-ep-carousel .bdt-ep-carousel-item.category-blog .bdt-ep-carousel-thumbnail {
+    flex-shrink: 0;
+}
+
+.bdt-ep-carousel .bdt-ep-carousel-item.category-blog .bdt-ep-carousel-desc {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Responsive adjustments */
+@media (max-width: 767px) {
+    .bdt-ep-carousel .swiper-slide {
+        flex: 0 0 100% !important;
+        max-width: 100%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .bdt-ep-carousel .swiper-slide {
+        flex: 0 0 50% !important;
+        max-width: 50%;
+    }
+}
+
+@media (min-width: 1024px) {
+    .bdt-ep-carousel .swiper-slide {
+        flex: 0 0 33.333% !important;
+        max-width: 33.333%;
+    }
+}
+
+/* Touch/swipe improvements */
+.bdt-ep-carousel .swiper-wrapper {
+    cursor: grab;
+}
+
+.bdt-ep-carousel .swiper-wrapper:active {
+    cursor: grabbing;
+}
+
+/* Height matching improvements */
+.bdt-ep-carousel[bdt-height-match] .swiper-slide {
+    min-height: 300px;
+}
+
+/* Fix for images in carousel - match Thai version positioning */
+.bdt-ep-carousel .bdt-ep-carousel-thumbnail img {
+    width: auto !important;
+    height: 100% !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    object-fit: cover !important;
+}
+
+/* Disable only hover scale animations for carousel thumbnails */
+.bdt-ep-carousel-thumbnail:hover,
+.bdt-ep-carousel-item:hover .bdt-ep-carousel-thumbnail {
+    transform: none !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+/* Keep the transform positioning for images but disable hover scaling */
+.bdt-ep-carousel-thumbnail:hover img,
+.bdt-ep-carousel-item:hover .bdt-ep-carousel-thumbnail img {
+    transform: translate(-50%, -50%) !important;
+    transition: none !important;
+    animation: none !important;
+}
+
+/* Button styling improvements */
+.bdt-ep-carousel .bdt-ep-carousel-button {
+    transition: all 0.3s ease;
+    margin-top: auto;
+}
+
+.bdt-ep-carousel .bdt-ep-carousel-button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Loading state */
+.bdt-ep-carousel.loading {
+    opacity: 0.7;
+    pointer-events: none;
+}
+
+.bdt-ep-carousel.loading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    margin: -10px 0 0 -10px;
+    border: 2px solid #f3f3f3;
+    border-top: 2px solid #333;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    z-index: 100;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Fix for overflow issues */
+.bdt-ep-carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+.bdt-ep-carousel .swiper-carousel {
+    overflow: visible;
+}
+
+/* Debugging styles (จะลบออกในการใช้งานจริง) */
+.debug-carousel .swiper-slide {
+    border: 1px solid red;
+}
+
+.debug-carousel .swiper-wrapper {
+    border: 2px solid blue;
+}

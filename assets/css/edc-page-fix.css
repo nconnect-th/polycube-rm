@@ -1,0 +1,22 @@
+/* EDC page fix styles */
+.e-font-icon-svg-symbols {
+    display: none !important;
+}
+
+#floik-annotations {
+    display: none;
+}
+
+super-dev {
+    all: initial !important;
+}
+
+/* Browser extensions styles */
+#cssInspectorCSS,
+#fontsChangerCSS,
+#fontsChangerMCSS,
+#moveElementCSS,
+#deleteElementCSS,
+#pageOutlinerCSS {
+    display: none;
+}

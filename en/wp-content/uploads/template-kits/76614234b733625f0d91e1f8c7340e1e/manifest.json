@@ -1,0 +1,1055 @@
+{
+    "manifest_version": "1.0.21",
+    "title": "Everpay \u2013 Online Payment Gateway & Fintech Elementor Template Kit",
+    "page_builder": "elementor",
+    "kit_version": "1.0.0",
+    "templates": [
+        {
+            "name": "Global Kit Styles",
+            "screenshot": "screenshots\/global-kit-styles.jpg",
+            "source": "templates\/global.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "global-styles",
+                "include_in_zip": "1",
+                "elementor_pro_required": null,
+                "additional_template_information": [
+                    "These are the global theme styles configured through the Elementor Theme Styles area."
+                ]
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Home",
+            "screenshot": "screenshots\/home.jpg",
+            "source": "templates\/home.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/home\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-home",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "About",
+            "screenshot": "screenshots\/about.jpg",
+            "source": "templates\/about.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/about\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Services",
+            "screenshot": "screenshots\/services.jpg",
+            "source": "templates\/services.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/services\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Service Details",
+            "screenshot": "screenshots\/service-details.jpg",
+            "source": "templates\/service-details.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/service-details\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Pricing",
+            "screenshot": "screenshots\/pricing.jpg",
+            "source": "templates\/pricing.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/pricing\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Team",
+            "screenshot": "screenshots\/team.jpg",
+            "source": "templates\/team.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/team\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Help Center",
+            "screenshot": "screenshots\/help-center.jpg",
+            "source": "templates\/help-center.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/help-center\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Blog",
+            "screenshot": "screenshots\/blog.jpg",
+            "source": "templates\/blog.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/blog\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Single Post",
+            "screenshot": "screenshots\/single-post.jpg",
+            "source": "templates\/single-post.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/single-post\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-post",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Metform Contact",
+            "screenshot": "screenshots\/metform-contact.jpg",
+            "source": "templates\/metform-contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/metform-contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Contact",
+            "screenshot": "screenshots\/contact.jpg",
+            "source": "templates\/contact.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/contact\/",
+            "type": "page",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-page",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Header",
+            "screenshot": "screenshots\/header.jpg",
+            "source": "templates\/header.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/header\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-header",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "Footer",
+            "screenshot": "screenshots\/footer.jpg",
+            "source": "templates\/footer.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/footer\/",
+            "type": "section",
+            "category": "section",
+            "metadata": {
+                "template_type": "section-footer",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        },
+        {
+            "name": "404",
+            "screenshot": "screenshots\/404.jpg",
+            "source": "templates\/404.json",
+            "preview_url": "https:\/\/templatekit.jegtheme.com\/everpay\/template-kit\/404\/",
+            "type": "section",
+            "category": "page",
+            "metadata": {
+                "template_type": "single-404",
+                "include_in_zip": "1",
+                "elementor_pro_required": null
+            },
+            "elementor_pro_required": false
+        }
+    ],
+    "required_plugins": [
+        {
+            "name": "Jeg Elementor Kit",
+            "version": "2.1.0",
+            "file": "jeg-elementor-kit\/jeg-elementor-kit.php",
+            "author": "Jegstudio"
+        },
+        {
+            "name": "MetForm",
+            "version": "1.5.4",
+            "file": "metform\/metform.php",
+            "author": "Wpmet"
+        },
+        {
+            "name": "Elementor",
+            "version": "3.5.3",
+            "file": "elementor\/elementor.php",
+            "author": "Elementor.com"
+        }
+    ],
+    "images": [
+        {
+            "filename": "bg4-UKTFPUF.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/bg4-UKTFPUF-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                },
+                {
+                    "source": "templates\/blog.json",
+                    "name": "Blog"
+                },
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                },
+                {
+                    "source": "templates\/contact.json",
+                    "name": "Contact"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                },
+                {
+                    "source": "templates\/404.json",
+                    "name": "404"
+                }
+            ],
+            "filesize": 162061,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-UKTFPUF"
+        },
+        {
+            "filename": "marketing-RAYPJUZ-e1643027907348.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/marketing-RAYPJUZ-800x704.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 314520,
+            "dimensions": [
+                1000,
+                880
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-RAYPJUZ"
+        },
+        {
+            "filename": "asset-2JWMP5-e1643027730693.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-2JWMP5-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 26053,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2JWMP5"
+        },
+        {
+            "filename": "asset-CM23AP-e1643027758686.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-CM23AP-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 24666,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-CM23AP"
+        },
+        {
+            "filename": "asset-BAD6Z7-e1643027741100.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-BAD6Z7-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 33422,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-BAD6Z7"
+        },
+        {
+            "filename": "asset-C4F2ZCT-e1643027747228.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-C4F2ZCT-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 36460,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-C4F2ZCT"
+        },
+        {
+            "filename": "asset-FGBAZS-e1643027771875.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-FGBAZS-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 32425,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-FGBAZS"
+        },
+        {
+            "filename": "asset-DTVQVHF-e1643027763213.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-DTVQVHF-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 36240,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-DTVQVHF"
+        },
+        {
+            "filename": "asset-MJY9CBZ-e1643027777109.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-MJY9CBZ-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 24393,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-MJY9CBZ"
+        },
+        {
+            "filename": "asset-4BD67PS-e1643027736908.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-4BD67PS-800x400.png",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 30907,
+            "dimensions": [
+                1000,
+                500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-4BD67PS"
+        },
+        {
+            "filename": "asian-girl-makes-online-purchases-over-the-internet-using-a-laptop-and-a-bank-card-online-shopping-e1643027794353.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asian-girl-makes-online-purchases-over-the-internet-using-a-laptop-and-a-bank-card-online-shopping-800x1200.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 176286,
+            "dimensions": [
+                1000,
+                1500
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-8AGZFWC"
+        },
+        {
+            "filename": "happy-couple-shopping-and-payment-by-credit-card-e1643027809153.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/happy-couple-shopping-and-payment-by-credit-card-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                }
+            ],
+            "filesize": 204252,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-YDMVE8C"
+        },
+        {
+            "filename": "online-payments-young-interracial-couple-with-laptop-and-credit-card-at-home-e1643027817220.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/online-payments-young-interracial-couple-with-laptop-and-credit-card-at-home-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 190172,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-AHYRZZR"
+        },
+        {
+            "filename": "bg1-UKTFPUF.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/bg1-UKTFPUF-800x450.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                }
+            ],
+            "filesize": 287627,
+            "dimensions": [
+                1920,
+                1080
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-UKTFPUF"
+        },
+        {
+            "filename": "P2UGM57.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/P2UGM57-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                }
+            ],
+            "filesize": 144343,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-P2UGM57"
+        },
+        {
+            "filename": "RHDZL5A.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/RHDZL5A-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                }
+            ],
+            "filesize": 117488,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-RHDZL5A"
+        },
+        {
+            "filename": "LZHZBNZ.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/LZHZBNZ-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                }
+            ],
+            "filesize": 152071,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-LZHZBNZ"
+        },
+        {
+            "filename": "B3R7EGZ.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/B3R7EGZ-800x800.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                }
+            ],
+            "filesize": 146856,
+            "dimensions": [
+                1000,
+                1000
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-B3R7EGZ"
+        },
+        {
+            "filename": "young-couple-making-online-payment-using-credit-card-and-laptop-e1643027827294.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/young-couple-making-online-payment-using-credit-card-and-laptop-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/home.json",
+                    "name": "Home"
+                },
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                },
+                {
+                    "source": "templates\/help-center.json",
+                    "name": "Help Center"
+                }
+            ],
+            "filesize": 142709,
+            "dimensions": [
+                1440,
+                961
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-9LE2A5Z"
+        },
+        {
+            "filename": "map-9Z4Y5GV-1-e1643027991256.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/map-9Z4Y5GV-1-800x432.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 98477,
+            "dimensions": [
+                1000,
+                541
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-9Z4Y5GV"
+        },
+        {
+            "filename": "asset-apk-e1643028033279.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-apk-800x710.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 259970,
+            "dimensions": [
+                1000,
+                888
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-YELMSQV"
+        },
+        {
+            "filename": "google-play-badge-e1630982322931-1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/google-play-badge-e1630982322931-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 15158,
+            "dimensions": [
+                584,
+                179
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/play.google.com\/intl\/en_us\/badges\/"
+        },
+        {
+            "filename": "app-store1-1.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/app-store1-1.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 9449,
+            "dimensions": [
+                501,
+                168
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/developer.apple.com\/app-store\/marketing\/guidelines\/"
+        },
+        {
+            "filename": "asset-YELMSQV-e1643028020399.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/asset-YELMSQV-800x1101.png",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/pricing.json",
+                    "name": "Pricing"
+                }
+            ],
+            "filesize": 282650,
+            "dimensions": [
+                700,
+                963
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-YELMSQV"
+        },
+        {
+            "filename": "business-man-portrait-indoors-PM5T2GY.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/business-man-portrait-indoors-PM5T2GY-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 111351,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-PM5T2GY"
+        },
+        {
+            "filename": "young-business-woman-holding-reports-and-looking-a-V72L3HD.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/young-business-woman-holding-reports-and-looking-a-V72L3HD-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/about.json",
+                    "name": "About"
+                },
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 99482,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-V72L3HD"
+        },
+        {
+            "filename": "growth-VD9NBXD-e1643027894477.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/growth-VD9NBXD-800x699.png",
+            "templates": [
+                {
+                    "source": "templates\/services.json",
+                    "name": "Services"
+                }
+            ],
+            "filesize": 304210,
+            "dimensions": [
+                800,
+                699
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-VD9NBXD"
+        },
+        {
+            "filename": "online-payment-internet-banking-technology-concept-e1643028058233.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/online-payment-internet-banking-technology-concept-800x534.jpg",
+            "templates": [
+                {
+                    "source": "templates\/service-details.json",
+                    "name": "Service Details"
+                }
+            ],
+            "filesize": 158106,
+            "dimensions": [
+                1440,
+                961
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-3E5R76W"
+        },
+        {
+            "filename": "pretty-young-student-or-businesswoman-with-books-HZ4745W.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/pretty-young-student-or-businesswoman-with-books-HZ4745W-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 110459,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-HZ4745W"
+        },
+        {
+            "filename": "business-woman-portrait-indoors-SPG59FE.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/business-woman-portrait-indoors-SPG59FE-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 100792,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-SPG59FE"
+        },
+        {
+            "filename": "financial-manager-72TN2GZ.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/financial-manager-72TN2GZ-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 151467,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-72TN2GZ"
+        },
+        {
+            "filename": "mature-man-sitting-on-desk-and-smiling-in-creative-A2C7VDX.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/mature-man-sitting-on-desk-and-smiling-in-creative-A2C7VDX-800x1000.jpg",
+            "templates": [
+                {
+                    "source": "templates\/team.json",
+                    "name": "Team"
+                }
+            ],
+            "filesize": 197587,
+            "dimensions": [
+                1000,
+                1250
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-A2C7VDX"
+        },
+        {
+            "filename": "woman-scanning-qr-code-for-mobile-payment-e1643028065840.jpg",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/woman-scanning-qr-code-for-mobile-payment-800x533.jpg",
+            "templates": [
+                {
+                    "source": "templates\/single-post.json",
+                    "name": "Single Post"
+                }
+            ],
+            "filesize": 121138,
+            "dimensions": [
+                1440,
+                960
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "yes",
+            "image_urls": "https:\/\/elements.envato.com\/image-XW4CNTC"
+        },
+        {
+            "filename": "logo-2BD9KK-e1643027841710.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/logo-2BD9KK-800x229.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                }
+            ],
+            "filesize": 31607,
+            "dimensions": [
+                1000,
+                286
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2BD9KK"
+        },
+        {
+            "filename": "logo2-2BD9KK-e1643027848928.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/logo2-2BD9KK-800x229.png",
+            "templates": [
+                {
+                    "source": "templates\/header.json",
+                    "name": "Header"
+                },
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 28217,
+            "dimensions": [
+                1000,
+                286
+            ],
+            "image_source": "envato_elements",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/elements.envato.com\/image-2BD9KK"
+        },
+        {
+            "filename": "network.png",
+            "thumbnail_url": "https:\/\/templatekit.jegtheme.com\/everpay\/wp-content\/uploads\/sites\/228\/2022\/01\/network-800x533.png",
+            "templates": [
+                {
+                    "source": "templates\/footer.json",
+                    "name": "Footer"
+                }
+            ],
+            "filesize": 195690,
+            "dimensions": [
+                1920,
+                1280
+            ],
+            "image_source": "cc0",
+            "person_or_place": "no",
+            "image_urls": "https:\/\/www.freepik.com\/free-vector\/gradient-network-connection-background_12643221.htm"
+        }
+    ]
+}

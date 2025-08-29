@@ -1,0 +1,246 @@
+/* Elementor Offline Styles */
+/* Additional styles to ensure components work properly in offline mode */
+
+/* Text Editor Offline Mode */
+.elementor-text-editor-offline {
+    font-family: inherit;
+    line-height: 1.6;
+    color: inherit;
+}
+
+/* Image Carousel Offline Styles */
+.elementor-image-carousel .swiper-wrapper {
+    display: flex !important;
+    transition: transform 0.3s ease;
+}
+
+.elementor-image-carousel .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+}
+
+.elementor-image-carousel {
+    overflow: hidden;
+    position: relative;
+}
+
+/* Accordion Offline Styles */
+.elementor-accordion .elementor-tab-title {
+    cursor: pointer;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    margin-bottom: -1px;
+    position: relative;
+    transition: background-color 0.3s ease;
+}
+
+.elementor-accordion .elementor-tab-title:hover {
+    background: #e9ecef;
+}
+
+.elementor-accordion .elementor-tab-title.elementor-active {
+    background: #007cba;
+    color: white;
+}
+
+.elementor-accordion .elementor-tab-content {
+    padding: 20px;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    margin-bottom: 10px;
+    background: white;
+}
+
+/* Tabs Offline Styles */
+.elementor-tabs .elementor-tabs-wrapper {
+    display: flex;
+    border-bottom: 1px solid #dee2e6;
+    margin-bottom: 20px;
+}
+
+.elementor-tabs .elementor-tab-title {
+    cursor: pointer;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-bottom: none;
+    margin-right: -1px;
+    transition: background-color 0.3s ease;
+    position: relative;
+    top: 1px;
+}
+
+.elementor-tabs .elementor-tab-title:hover {
+    background: #e9ecef;
+}
+
+.elementor-tabs .elementor-tab-title.elementor-active {
+    background: white;
+    border-bottom: 1px solid white;
+    z-index: 1;
+}
+
+.elementor-tabs .elementor-tab-content {
+    padding: 20px;
+    background: white;
+    border: 1px solid #dee2e6;
+    border-top: none;
+    margin-top: -1px;
+}
+
+/* Video Offline Styles */
+.elementor-video iframe,
+.elementor-video video {
+    width: 100% !important;
+    height: auto !important;
+    min-height: 200px;
+}
+
+.elementor-video {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Progress Bar Fallback */
+.elementor-progress-wrapper {
+    background: #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 10px;
+}
+
+.elementor-progress-bar {
+    height: 100%;
+    background: linear-gradient(90deg, #007cba, #005a8b);
+    border-radius: 10px;
+    transition: width 2s ease-in-out;
+}
+
+/* Counter Fallback */
+.elementor-counter-number-wrapper {
+    font-size: 3em;
+    font-weight: bold;
+    color: #007cba;
+}
+
+.elementor-counter-title {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+/* Alert/Notice Fallback */
+.elementor-alert {
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+
+.elementor-alert.elementor-alert-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.elementor-alert.elementor-alert-success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+
+.elementor-alert.elementor-alert-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3;
+    border-color: #faebcc;
+}
+
+.elementor-alert.elementor-alert-danger {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+/* Toggle/Switcher Fallback */
+.elementor-toggle .elementor-toggle-item {
+    border: 1px solid #dee2e6;
+    margin-bottom: 10px;
+    border-radius: 4px;
+}
+
+.elementor-toggle .elementor-tab-title {
+    cursor: pointer;
+    padding: 15px 20px;
+    background: #f8f9fa;
+    transition: background-color 0.3s ease;
+}
+
+.elementor-toggle .elementor-tab-title:hover {
+    background: #e9ecef;
+}
+
+.elementor-toggle .elementor-tab-content {
+    padding: 20px;
+    background: white;
+    display: none;
+}
+
+.elementor-toggle .elementor-tab-content.elementor-active {
+    display: block;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .elementor-tabs .elementor-tabs-wrapper {
+        flex-direction: column;
+    }
+    
+    .elementor-tabs .elementor-tab-title {
+        margin-right: 0;
+        margin-bottom: -1px;
+        top: 0;
+    }
+    
+    .elementor-accordion .elementor-tab-title,
+    .elementor-accordion .elementor-tab-content {
+        padding: 10px 15px;
+    }
+    
+    .elementor-counter-number-wrapper {
+        font-size: 2em;
+    }
+}
+
+/* Ensure all elementor widgets are visible */
+.elementor-widget {
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+/* Loading state fixes */
+.elementor-loading {
+    opacity: 1 !important;
+}
+
+/* Animation fallbacks */
+.elementor-element {
+    animation-fill-mode: both;
+    animation-duration: 1s;
+}
+
+/* Ensure icons display properly */
+.elementor-icon {
+    display: inline-block;
+}
+
+.elementor-icon i {
+    font-size: inherit;
+}
+
+/* Image optimization for offline */
+.elementor-image img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}

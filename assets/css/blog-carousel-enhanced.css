@@ -1,0 +1,135 @@
+/* 
+ * Enhanced Blog Carousel Fix
+ * แก้ไขปัญหา carousel ที่แสดงแค่บทความเดียว
+ */
+
+.blog-carousel-enhanced {
+    position: relative;
+    overflow: visible !important;
+}
+
+/* แก้ไข swiper wrapper ให้แสดงได้หลาย slides */
+#bdt-carousel-f5a2fe7 .swiper-wrapper {
+    display: flex !important;
+    align-items: stretch;
+    transition: transform 0.3s ease !important;
+    width: auto !important;
+}
+
+/* แก้ไข slide items */
+#bdt-carousel-f5a2fe7 .bdt-ep-carousel-item {
+    flex-shrink: 0 !important;
+    width: calc(33.333% - 23px) !important;
+    margin-right: 35px !important;
+    opacity: 1 !important;
+    transform: none !important;
+}
+
+/* Responsive breakpoints */
+@media (max-width: 1023px) {
+    #bdt-carousel-f5a2fe7 .bdt-ep-carousel-item {
+        width: calc(50% - 17.5px) !important;
+    }
+}
+
+@media (max-width: 767px) {
+    #bdt-carousel-f5a2fe7 .bdt-ep-carousel-item {
+        width: 100% !important;
+        margin-right: 0 !important;
+    }
+}
+
+/* แก้ไข navigation arrows */
+#bdt-carousel-f5a2fe7 .bdt-navigation-prev,
+#bdt-carousel-f5a2fe7 .bdt-navigation-next {
+    opacity: 1 !important;
+    pointer-events: all !important;
+    cursor: pointer !important;
+    background: rgba(255, 255, 255, 0.9) !important;
+    border-radius: 50% !important;
+    width: 50px !important;
+    height: 50px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1) !important;
+    transition: all 0.3s ease !important;
+}
+
+#bdt-carousel-f5a2fe7 .bdt-navigation-prev:hover,
+#bdt-carousel-f5a2fe7 .bdt-navigation-next:hover {
+    background: rgba(255, 255, 255, 1) !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.2) !important;
+    transform: scale(1.1) !important;
+}
+
+/* แก้ไข disabled state */
+#bdt-carousel-f5a2fe7 .swiper-button-disabled {
+    opacity: 0.5 !important;
+    pointer-events: none !important;
+}
+
+/* แก้ไข container overflow */
+#bdt-carousel-f5a2fe7 .swiper-carousel {
+    overflow: hidden !important;
+    position: relative !important;
+}
+
+/* Fallback carousel styles */
+.blog-carousel-fallback {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: space-between;
+}
+
+.blog-carousel-fallback .bdt-ep-carousel-item {
+    flex: 0 0 calc(33.333% - 23px);
+    margin-bottom: 35px;
+}
+
+@media (max-width: 1023px) {
+    .blog-carousel-fallback .bdt-ep-carousel-item {
+        flex: 0 0 calc(50% - 17.5px);
+    }
+}
+
+@media (max-width: 767px) {
+    .blog-carousel-fallback .bdt-ep-carousel-item {
+        flex: 0 0 100%;
+    }
+}
+
+/* Animation enhancements */
+.bdt-ep-carousel-item {
+    transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.bdt-ep-carousel-item:hover {
+    transform: translateY(-5px) !important;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+}
+
+/* Improved thumbnail styling */
+.bdt-ep-carousel-thumbnail {
+    border-radius: 10px !important;
+    overflow: hidden !important;
+}
+
+/* Removed hover animation as requested */
+
+/* Button styling improvements */
+.bdt-ep-carousel-button {
+    border-radius: 25px !important;
+    padding: 10px 20px !important;
+    transition: all 0.3s ease !important;
+    background-color: #B22222 !important;
+    border: none !important;
+    color: white !important;
+}
+
+.bdt-ep-carousel-button:hover {
+    background-color: #8B0000 !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2) !important;
+}

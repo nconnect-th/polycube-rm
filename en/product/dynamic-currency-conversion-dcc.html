@@ -1,0 +1,1322 @@
+<html lang="en-US"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<title>Dynamic Currency Conversion (DCC) – Polycube</title>
+<meta name="robots" content="max-image-preview:large">
+	<style>img:is([sizes="auto" i], [sizes^="auto," i]) { contain-intrinsic-size: 3000px 1500px }</style>
+	<link rel="alternate" type="application/rss+xml" title="Polycube » Feed" href="feed/">
+<link rel="alternate" type="application/rss+xml" title="Polycube » Comments Feed" href="comments/feed/">
+<script>
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/15.1.0\/svg\/","svgExt":".svg","source":{"concatemoji":"..\/..\/wp-includes\/js\/wp-emoji-release.min.js"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83d\udc26\u200d\ud83d\udd25","\ud83d\udc26\u200b\ud83d\udd25")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+</script>
+<link rel="stylesheet" id="hello-elementor-theme-style-css" href="../../wp-content/themes/hello-elementor/theme.min.css" media="all">
+<link rel="stylesheet" id="jet-menu-hello-css" href="../../wp-content/plugins/jet-menu/integration/themes/hello-elementor/assets/css/style.css" media="all">
+<style id="wp-emoji-styles-inline-css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="jet-engine-frontend-css" href="../../wp-content/plugins/jet-engine/assets/css/frontend.css" media="all">
+<style id="global-styles-inline-css">
+:root{--wp--preset--aspect-ratio--square: 1;--wp--preset--aspect-ratio--4-3: 4/3;--wp--preset--aspect-ratio--3-4: 3/4;--wp--preset--aspect-ratio--3-2: 3/2;--wp--preset--aspect-ratio--2-3: 2/3;--wp--preset--aspect-ratio--16-9: 16/9;--wp--preset--aspect-ratio--9-16: 9/16;--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 36px;--wp--preset--font-size--x-large: 42px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:root { --wp--style--global--content-size: 800px;--wp--style--global--wide-size: 1200px; }:where(body) { margin: 0; }.wp-site-blocks > .alignleft { float: left; margin-right: 2em; }.wp-site-blocks > .alignright { float: right; margin-left: 2em; }.wp-site-blocks > .aligncenter { justify-content: center; margin-left: auto; margin-right: auto; }:where(.wp-site-blocks) > * { margin-block-start: 24px; margin-block-end: 0; }:where(.wp-site-blocks) > :first-child { margin-block-start: 0; }:where(.wp-site-blocks) > :last-child { margin-block-end: 0; }:root { --wp--style--block-gap: 24px; }:root :where(.is-layout-flow) > :first-child{margin-block-start: 0;}:root :where(.is-layout-flow) > :last-child{margin-block-end: 0;}:root :where(.is-layout-flow) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-constrained) > :first-child{margin-block-start: 0;}:root :where(.is-layout-constrained) > :last-child{margin-block-end: 0;}:root :where(.is-layout-constrained) > *{margin-block-start: 24px;margin-block-end: 0;}:root :where(.is-layout-flex){gap: 24px;}:root :where(.is-layout-grid){gap: 24px;}.is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}.is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}.is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}.is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}.is-layout-flex{flex-wrap: wrap;align-items: center;}.is-layout-flex > :is(*, div){margin: 0;}body .is-layout-grid{display: grid;}.is-layout-grid > :is(*, div){margin: 0;}body{padding-top: 0px;padding-right: 0px;padding-bottom: 0px;padding-left: 0px;}a:where(:not(.wp-element-button)){text-decoration: underline;}:root :where(.wp-element-button, .wp-block-button__link){background-color: #32373c;border-width: 0;color: #fff;font-family: inherit;font-size: inherit;line-height: inherit;padding: calc(0.667em + 2px) calc(1.333em + 2px);text-decoration: none;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+:root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="hello-elementor-css" href="../../wp-content/themes/hello-elementor/style.min.css" media="all">
+<link rel="stylesheet" id="hello-elementor-header-footer-css" href="../../wp-content/themes/hello-elementor/header-footer.min.css" media="all">
+<link rel="stylesheet" id="elementor-frontend-css" href="../../wp-content/plugins/elementor/assets/css/frontend.min.css" media="all">
+<link rel="stylesheet" id="elementor-post-26-css" href="../../wp-content/uploads/elementor/css/post-26.css" media="all">
+<link rel="stylesheet" id="jet-menu-public-styles-css" href="../../wp-content/plugins/jet-menu/assets/public/css/public.css" media="all">
+<link rel="stylesheet" id="widget-image-css" href="../../wp-content/plugins/elementor/assets/css/widget-image.min.css" media="all">
+<link rel="stylesheet" id="widget-icon-list-css" href="../../wp-content/plugins/elementor/assets/css/widget-icon-list.min.css" media="all">
+<link rel="stylesheet" id="e-sticky-css" href="../../wp-content/plugins/elementor-pro/assets/css/modules/sticky.min.css" media="all">
+<link rel="stylesheet" id="widget-image-box-css" href="../../wp-content/plugins/elementor/assets/css/widget-image-box.min.css" media="all">
+<link rel="stylesheet" id="e-animation-push-css" href="../../wp-content/plugins/elementor/assets/lib/animations/styles/e-animation-push.min.css" media="all">
+<link rel="stylesheet" id="widget-social-icons-css" href="../../wp-content/plugins/elementor/assets/css/widget-social-icons.min.css" media="all">
+<link rel="stylesheet" id="e-apple-webkit-css" href="../../wp-content/plugins/elementor/assets/css/conditionals/apple-webkit.min.css" media="all">
+<link rel="stylesheet" id="widget-heading-css" href="../../wp-content/plugins/elementor/assets/css/widget-heading.min.css" media="all">
+<link rel="stylesheet" id="widget-google_maps-css" href="../../wp-content/plugins/elementor/assets/css/widget-google_maps.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="../../wp-content/plugins/elementor/assets/lib/eicons/css/elementor-icons.min.css" media="all">
+<link rel="stylesheet" id="jet-blog-css" href="../../wp-content/plugins/jet-blog/assets/css/jet-blog.css" media="all">
+<link rel="stylesheet" id="widget-video-css" href="../../wp-content/plugins/elementor/assets/css/widget-video.min.css" media="all">
+<link rel="stylesheet" id="e-motion-fx-css" href="../../wp-content/plugins/elementor-pro/assets/css/modules/motion-fx.min.css" media="all">
+<link rel="stylesheet" id="widget-icon-box-css" href="../../wp-content/plugins/elementor/assets/css/widget-icon-box.min.css" media="all">
+<link rel="stylesheet" id="widget-divider-css" href="../../wp-content/plugins/elementor/assets/css/widget-divider.min.css" media="all">
+<link rel="stylesheet" id="e-animation-fadeIn-css" href="../../wp-content/plugins/elementor/assets/lib/animations/styles/fadeIn.min.css" media="all">
+<link rel="stylesheet" id="elementor-post-267-css" href="../../wp-content/uploads/elementor/css/post-267.css" media="all">
+<link rel="stylesheet" id="elementor-post-94-css" href="../../wp-content/uploads/elementor/css/post-94.css" media="all">
+<link rel="stylesheet" id="elementor-post-1755-css" href="../../wp-content/uploads/elementor/css/post-1755.css" media="all">
+<link rel="stylesheet" id="bdt-uikit-css" href="../../wp-content/plugins/bdthemes-element-pack/assets/css/bdt-uikit.css" media="all">
+<link rel="stylesheet" id="ep-helper-css" href="../../wp-content/plugins/bdthemes-element-pack/assets/css/ep-helper.css" media="all">
+<link rel="stylesheet" id="elementor-gf-local-ubuntu-css" href="../../wp-content/uploads/elementor/google-fonts/css/ubuntu.css" media="all">
+<link rel="stylesheet" id="elementor-gf-local-opensans-css" href="../../wp-content/uploads/elementor/google-fonts/css/opensans.css" media="all">
+<link rel="stylesheet" id="elementor-gf-local-prompt-css" href="../../wp-content/uploads/elementor/google-fonts/css/prompt.css" media="all">
+<link rel="stylesheet" id="elementor-gf-local-poppins-css" href="../../wp-content/uploads/elementor/google-fonts/css/poppins.css" media="all">
+<link rel="stylesheet" id="elementor-icons-shared-0-css" href="../../wp-content/plugins/elementor/assets/lib/font-awesome/css/fontawesome.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-solid-css" href="../../wp-content/plugins/elementor/assets/lib/font-awesome/css/solid.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-regular-css" href="../../wp-content/plugins/elementor/assets/lib/font-awesome/css/regular.min.css" media="all">
+<link rel="stylesheet" id="elementor-icons-fa-brands-css" href="../../wp-content/plugins/elementor/assets/lib/font-awesome/css/brands.min.css" media="all">
+<!--n2css--><!--n2js-->
+<!-- New Polycube Navigation Resources -->
+<link rel="stylesheet" href="../../assets/css/navigation-fix.css" media="all">
+<link rel="stylesheet" href="../../assets/css/new-navigation.css" media="all">
+<script src="../../wp-includes/js/jquery/jquery.minf43b.js" id="jquery-core-js"></script><style>/*@import '../../assets/fonts/styles.css';*/
+
+/* Fix motion effects to match Thai version */
+[data-id="1e53800"],
+[data-id="8b06e5c"], 
+[data-id="03f2cc7"],
+[data-id="0991d9f"],
+[data-id="3f86b776"],
+[data-id="20e3daf7"] {
+    --translateX: 0px !important;
+    --translateY: 0px !important;
+    --e-transform-transition-duration: 0ms !important;
+    transform: translateX(0px) translateY(0px) !important;
+    transition: none !important;
+}
+
+/* Fix for elementor-container layouts */
+.elementor-container.elementor-column-gap-default,
+.elementor-container.elementor-column-gap-wide {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.elementor-container.elementor-column-gap-default {
+    gap: 20px !important;
+}
+
+.elementor-container.elementor-column-gap-wide {
+    gap: 40px !important;
+}
+
+/* Fix for column layouts */
+.elementor-container .elementor-col-25 {
+    flex: 0 0 calc(25% - 15px) !important;
+    max-width: calc(25% - 15px) !important;
+}
+
+.elementor-container .elementor-col-100 {
+    flex: 1 1 100% !important;
+    max-width: 100% !important;
+}
+
+/* Override any inline styles */
+[style*="--translateX"],
+[style*="--translateY"],
+[style*="transform: translate"] {
+    --translateX: 0px !important;
+    --translateY: 0px !important;
+    transform: translateX(0px) translateY(0px) !important;
+}
+
+/* Disable motion effects completely */
+[data-settings*="motion_fx"] {
+    --translateX: 0px !important;
+    --translateY: 0px !important;
+    transform: translateX(0px) translateY(0px) !important;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+    .elementor-container.elementor-column-gap-default,
+    .elementor-container.elementor-column-gap-wide {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    
+    .elementor-container .elementor-col-25,
+    .elementor-container .elementor-col-100 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+    }
+    
+    /* Ensure motion effects stay disabled on mobile */
+    [data-id="1e53800"],
+    [data-id="8b06e5c"], 
+    [data-id="03f2cc7"],
+    [data-id="0991d9f"],
+    [data-id="3f86b776"],
+    [data-id="20e3daf7"] {
+        --translateX: 0px !important;
+        --translateY: 0px !important;
+        transform: translateX(0px) translateY(0px) !important;
+    }
+}
+
+/* Fix for specific section with display issues */
+[data-id="7dd820dd"] {
+    display: block !important;
+}
+
+[data-id="7dd820dd"] .elementor-container {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    gap: 20px !important;
+}
+
+[data-id="7dd820dd"] .elementor-col-25 {
+    flex: 0 0 calc(25% - 15px) !important;
+    max-width: calc(25% - 15px) !important;
+    display: flex !important;
+}
+
+[data-id="7dd820dd"] .elementor-widget-wrap {
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+[data-id="7dd820dd"] .elementor-widget {
+    width: 100% !important;
+}
+
+[data-id="7dd820dd"] .elementor-widget-image img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    max-width: 100% !important;
+}
+
+/* Fix animation issues that prevent images from showing */
+[data-id="7dd820dd"] .elementor-invisible {
+    visibility: visible !important;
+    opacity: 1 !important;
+    animation: none !important;
+    transform: none !important;
+}
+
+[data-id="7dd820dd"] .elementor-column {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Mobile fix for the problematic section */
+@media (max-width: 768px) {
+    [data-id="7dd820dd"] .elementor-container {
+        flex-direction: column !important;
+        gap: 20px !important;
+    }
+    
+    [data-id="7dd820dd"] .elementor-col-25 {
+        flex: 1 1 100% !important;
+        max-width: 100% !important;
+    }
+}
+</style></head>
+<body class="wp-singular page-template-default page page-id-267 page-child parent-pageid-113 wp-custom-logo wp-embed-responsive wp-theme-hello-elementor theme-default jet-mega-menu-location elementor-default elementor-kit-26 elementor-page elementor-page-267 e--ua-blink e--ua-chrome e--ua-mac e--ua-webkit" data-elementor-device-mode="desktop" data-new-gr-c-s-check-loaded="14.1238.0" data-gr-ext-installed="">
+
+<!-- New Polycube Navigation -->
+<nav class="polycube-nav" id="main-navigation" role="navigation" aria-label="Main">
+    <div class="nav-container">
+        <!-- Logo Section -->
+        <div class="nav-logo">
+            <a href="../../index.html" aria-label="Polycube Home">
+                <img src="../../wp-content/uploads/2024/09/Logo-POLYCUBE_New.png" alt="Polycube Logo" width="150" height="56">
+            </a>
+        </div>
+
+        <!-- Desktop Menu -->
+        <ul class="nav-menu" role="menubar">
+            <li class="nav-item" role="none">
+                <a href="../../index.html" class="nav-link" role="menuitem">Home</a>
+            </li>
+            <li class="nav-item" role="none">
+                <a href="../../about.html" class="nav-link" role="menuitem">About</a>
+            </li>
+            <li class="nav-item" role="none">
+                <a href="../../index.html#services" class="nav-link" role="menuitem">Services</a>
+            </li>
+            <li class="nav-item" role="none">
+                <a href="../../faq.html" class="nav-link" role="menuitem">FAQ</a>
+            </li>
+        </ul>
+
+        <!-- Actions Section -->
+        <div class="nav-actions">
+            <!-- Language Switcher -->
+            <div class="language-switcher" role="group" aria-label="Change Language">
+                <a href="../../product/dynamic-currency-conversion-dcc.html" class="lang-link">TH</a>
+                <a href="#" class="lang-link active" aria-current="page">EN</a>
+            </div>
+
+            <!-- Contact Button -->
+            <a href="../../about.html#contactus" class="contact-btn" role="button">Contact</a>
+        </div>
+
+        <!-- Mobile Menu Toggle -->
+        <button class="mobile-toggle" aria-label="Menu" aria-expanded="false" aria-controls="main-navigation">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+        </button>
+        </div>
+    </div>
+</nav>
+<!-- End New Polycube Navigation -->
+
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
+
+		<div data-elementor-type="header" data-elementor-id="94" class="elementor elementor-94 elementor-location-header" style="display: none !important;" data-elementor-settings="{&quot;element_pack_global_tooltip_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-elementor-post-type="elementor_library">
+			<div class="elementor-element elementor-element-5c9e955 bbr e-flex e-con-boxed e-con e-parent e-lazyloaded elementor-sticky elementor-sticky--effects elementor-sticky--active elementor-section--handles-inside" data-id="5c9e955" data-element_type="container" id="bbr" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}" style="position: fixed; width: 1639px; margin-top: 0px; margin-bottom: 0px; top: 0px;">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bc17646 e-con-full e-flex e-con e-child" data-id="bc17646" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-6b88202 e-con-full e-flex e-con e-child" data-id="6b88202" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-467794f e-con-full e-flex e-con e-child" data-id="467794f" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-082bbf4 elementor-widget elementor-widget-image" data-id="082bbf4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="../../index.html">
+							<img fetchpriority="high" width="3334" height="1250" src="../../wp-content/uploads/2024/09/Logo-POLYCUBE_New.png" class="attachment-full size-full wp-image-442" alt="Logo News" srcset="../../wp-content/uploads/2024/09/Logo-POLYCUBE_New.png 3334w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-300x112.png 300w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-1024x384.png 1024w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-768x288.png 768w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-1536x576.png 1536w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-2048x768.png 2048w" sizes="(max-width: 3334px) 100vw, 3334px">								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-68ee7f6 e-con-full e-flex e-con e-child" data-id="68ee7f6" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-7ffa981 elementor-widget elementor-widget-jet-mega-menu" data-id="7ffa981" data-element_type="widget" data-widget_type="jet-mega-menu.default">
+				<div class="elementor-widget-container">
+					<div class="jet-mega-menu jet-mega-menu--layout-horizontal jet-mega-menu--sub-position-right jet-mega-menu--dropdown-layout-default jet-mega-menu--dropdown-position-right jet-mega-menu--animation-none jet-mega-menu--location-elementor jet-mega-menu--fill-svg-icons jet-mega-menu--inited" data-settings="{&quot;menuId&quot;:&quot;6&quot;,&quot;menuUniqId&quot;:&quot;6846b05931187&quot;,&quot;rollUp&quot;:false,&quot;megaAjaxLoad&quot;:false,&quot;layout&quot;:&quot;horizontal&quot;,&quot;subEvent&quot;:&quot;hover&quot;,&quot;mouseLeaveDelay&quot;:500,&quot;subTrigger&quot;:&quot;item&quot;,&quot;subPosition&quot;:&quot;right&quot;,&quot;megaWidthType&quot;:&quot;selector&quot;,&quot;megaWidthSelector&quot;:&quot;.elementor-94 .elementor-element.elementor-element-5c9e955&quot;,&quot;breakpoint&quot;:768,&quot;signatures&quot;:[]}"><div class="jet-mega-menu-toggle" role="button" tabindex="0" aria-label="Open/Close Menu"><div class="jet-mega-menu-toggle-icon jet-mega-menu-toggle-icon--default-state"><i class="fas fa-bars"></i></div><div class="jet-mega-menu-toggle-icon jet-mega-menu-toggle-icon--opened-state"><i class="fas fa-times"></i></div></div><nav class="jet-mega-menu-container" aria-label="Main nav"><ul class="jet-mega-menu-list"><li id="jet-mega-menu-item-124" class="jet-mega-menu-item jet-mega-menu-item-type-post_type jet-mega-menu-item-object-page jet-mega-menu-item-home jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-124"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="หน้าหลัก"><a href="../index.html" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Home</div></div></a></div></li>
+<li id="jet-mega-menu-item-123" class="jet-mega-menu-item jet-mega-menu-item-type-post_type jet-mega-menu-item-object-page jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-123"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="เกี่ยวกับเรา"><a href="../about.html" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">About us</div></div></a></div></li>
+<li id="jet-mega-menu-item-2589" class="jet-mega-menu-item jet-mega-menu-item-type-custom jet-mega-menu-item-object-custom jet-mega-menu-item-home jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-2589"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="บริการ"><a href="../index.html#services" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Services</div></div></a></div></li>
+<li id="jet-mega-menu-item-743" class="jet-mega-menu-item jet-mega-menu-item-type-post_type jet-mega-menu-item-object-page jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-743"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="คำถามที่พบบ่อย"><a href="../faq.html" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">FAQs</div></div></a></div></li>
+</ul></nav></div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0f204d5 e-con-full e-flex e-con e-child" data-id="0f204d5" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-3fa13c6 elementor-icon-list--layout-inline elementor-align-center elementor-tablet-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3fa13c6" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="../index.html">
+
+											<span class="elementor-icon-list-text">TH</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="dynamic-currency-conversion-dcc.html">
+
+											<span class="elementor-icon-list-text">EN</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-0a401f1 elementor-align-center elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="0a401f1" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="../about.html#contactus">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">ติดต่อเรา</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div><div class="elementor-element elementor-element-5c9e955 bbr e-flex e-con-boxed e-con e-parent e-lazyloaded elementor-sticky elementor-sticky--effects elementor-sticky__spacer" data-id="5c9e955" data-element_type="container" id="bbr" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;background_background&quot;:&quot;classic&quot;,&quot;sticky&quot;:&quot;top&quot;,&quot;sticky_on&quot;:[&quot;desktop&quot;],&quot;sticky_offset&quot;:0,&quot;sticky_effects_offset&quot;:0,&quot;sticky_anchor_link_offset&quot;:0}" style="visibility: hidden; transition: none; animation: auto ease 0s 1 normal none running none;">
+					<div class="e-con-inner">
+		<div class="elementor-element elementor-element-bc17646 e-con-full e-flex e-con e-child" data-id="bc17646" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-6b88202 e-con-full e-flex e-con e-child" data-id="6b88202" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-467794f e-con-full e-flex e-con e-child" data-id="467794f" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-082bbf4 elementor-widget elementor-widget-image" data-id="082bbf4" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+																<a href="../../index.html">
+							<img fetchpriority="high" width="3334" height="1250" src="../../wp-content/uploads/2024/09/Logo-POLYCUBE_New.png" class="attachment-full size-full wp-image-442" alt="Logo News" srcset="../../wp-content/uploads/2024/09/Logo-POLYCUBE_New.png 3334w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-300x112.png 300w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-1024x384.png 1024w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-768x288.png 768w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-1536x576.png 1536w, ../../wp-content/uploads/2024/09/Logo-POLYCUBE_New-2048x768.png 2048w" sizes="(max-width: 3334px) 100vw, 3334px">								</a>
+															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-68ee7f6 e-con-full e-flex e-con e-child" data-id="68ee7f6" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-7ffa981 elementor-widget elementor-widget-jet-mega-menu" data-id="7ffa981" data-element_type="widget" data-widget_type="jet-mega-menu.default">
+				<div class="elementor-widget-container">
+					<div class="jet-mega-menu jet-mega-menu--layout-horizontal jet-mega-menu--sub-position-right jet-mega-menu--dropdown-layout-default jet-mega-menu--dropdown-position-right jet-mega-menu--animation-none jet-mega-menu--location-elementor jet-mega-menu--fill-svg-icons jet-mega-menu--inited" data-settings="{&quot;menuId&quot;:&quot;6&quot;,&quot;menuUniqId&quot;:&quot;6846b05931187&quot;,&quot;rollUp&quot;:false,&quot;megaAjaxLoad&quot;:false,&quot;layout&quot;:&quot;horizontal&quot;,&quot;subEvent&quot;:&quot;hover&quot;,&quot;mouseLeaveDelay&quot;:500,&quot;subTrigger&quot;:&quot;item&quot;,&quot;subPosition&quot;:&quot;right&quot;,&quot;megaWidthType&quot;:&quot;selector&quot;,&quot;megaWidthSelector&quot;:&quot;.elementor-94 .elementor-element.elementor-element-5c9e955&quot;,&quot;breakpoint&quot;:768,&quot;signatures&quot;:[]}"><div class="jet-mega-menu-toggle" role="button" tabindex="0" aria-label="Open/Close Menu"><div class="jet-mega-menu-toggle-icon jet-mega-menu-toggle-icon--default-state"><i class="fas fa-bars"></i></div><div class="jet-mega-menu-toggle-icon jet-mega-menu-toggle-icon--opened-state"><i class="fas fa-times"></i></div></div><nav class="jet-mega-menu-container" aria-label="Main nav"><ul class="jet-mega-menu-list"><li id="jet-mega-menu-item-124" class="jet-mega-menu-item jet-mega-menu-item-type-post_type jet-mega-menu-item-object-page jet-mega-menu-item-home jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-124"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="หน้าหลัก"><a href="../index.html" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">หน้าหลัก</div></div></a></div></li>
+<li id="jet-mega-menu-item-123" class="jet-mega-menu-item jet-mega-menu-item-type-post_type jet-mega-menu-item-object-page jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-123"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="เกี่ยวกับเรา"><a href="../about.html" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">About Us</div></div></a></div></li>
+<li id="jet-mega-menu-item-2589" class="jet-mega-menu-item jet-mega-menu-item-type-custom jet-mega-menu-item-object-custom jet-mega-menu-item-home jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-2589"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="บริการ"><a href="../index.html#services" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">Services</div></div></a></div></li>
+<li id="jet-mega-menu-item-743" class="jet-mega-menu-item jet-mega-menu-item-type-post_type jet-mega-menu-item-object-page jet-mega-menu-item--default jet-mega-menu-item--top-level jet-mega-menu-item-743"><div class="jet-mega-menu-item__inner" tabindex="0" aria-label="คำถามที่พบบ่อย"><a href="../faq.html" class="jet-mega-menu-item__link jet-mega-menu-item__link--top-level"><div class="jet-mega-menu-item__title"><div class="jet-mega-menu-item__label">FAQs</div></div></a></div></li>
+</ul></nav></div>				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-0f204d5 e-con-full e-flex e-con e-child" data-id="0f204d5" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-3fa13c6 elementor-icon-list--layout-inline elementor-align-center elementor-tablet-align-center elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="3fa13c6" data-element_type="widget" data-widget_type="icon-list.default">
+				<div class="elementor-widget-container">
+							<ul class="elementor-icon-list-items elementor-inline-items">
+							<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="../../index.html">
+
+											<span class="elementor-icon-list-text">TH</span>
+											</a>
+									</li>
+								<li class="elementor-icon-list-item elementor-inline-item">
+											<a href="../en.html">
+
+											<span class="elementor-icon-list-text">EN</span>
+											</a>
+									</li>
+						</ul>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-0a401f1 elementor-align-center elementor-tablet-align-center elementor-widget elementor-widget-button" data-id="0a401f1" data-element_type="widget" data-widget_type="button.default">
+				<div class="elementor-widget-container">
+									<div class="elementor-button-wrapper">
+					<a class="elementor-button elementor-button-link elementor-size-sm" href="../about.html#contactus">
+						<span class="elementor-button-content-wrapper">
+									<span class="elementor-button-text">ติดต่อเรา</span>
+					</span>
+					</a>
+				</div>
+								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+				</div>
+		
+<main id="content" class="site-main post-267 page type-page status-publish hentry">
+
+	
+	<div class="page-content">
+				<div data-elementor-type="wp-page" data-elementor-id="267" class="elementor elementor-267" data-elementor-settings="{&quot;element_pack_global_tooltip_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-elementor-post-type="page">
+				<div class="elementor-element elementor-element-0991d9f e-flex e-con-boxed e-con e-parent e-lazyloaded" data-id="0991d9f" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;video&quot;,&quot;background_motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3.1,&quot;sizes&quot;:[]},&quot;background_video_link&quot;:&quot;wp-content\/uploads\/2024\/12\/6843213_Animation_Globe_1920x1080.mp4&quot;,&quot;jet_parallax_layout_list&quot;:[],&quot;background_play_on_mobile&quot;:&quot;yes&quot;,&quot;background_motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;background_motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+					<div class="e-con-inner">
+		<div class="elementor-background-video-container">
+							<video class="elementor-background-video-hosted" autoplay="" muted="" playsinline="" loop="" src="../../wp-content/uploads/2024/12/6843213_Animation_Globe_1920x1080.mp4" style="width: 1639px; height: 921.938px;"></video>
+					</div><div class="elementor-element elementor-element-d504b50 e-con-full e-flex e-con e-child" data-id="d504b50" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-363e4dd e-con-full e-flex e-con e-child" data-id="363e4dd" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-184c21f e-con-full e-flex e-con e-child" data-id="184c21f" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-dfeb1fe elementor-widget elementor-widget-heading" data-id="dfeb1fe" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h1 class="elementor-heading-title elementor-size-default">Dynamic Currency Conversion (DCC)  <br> </h1>				</div>
+				</div>
+				<div class="elementor-element elementor-element-d5cace2 elementor-widget elementor-widget-text-editor" data-id="d5cace2" data-element_type="widget" data-widget_type="text-editor.default">
+				<div class="elementor-widget-container">
+									<p class="p1" >Currency conversion service via credit card machine that allows foreign credit card holders to choose to pay for products or services in the cardholder's own currency.</p>								</div>
+				</div>
+				</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-74bd309 e-con-full e-flex e-con e-parent e-lazyloaded elementor-motion-effects-parent" data-id="74bd309" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-1e53800 e-con-full e-flex e-con e-child elementor-motion-effects-element" data-id="1e53800" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[],&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:54}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;]}" style="--translateX: -500px; --e-transform-transition-duration: 100ms; transform: translateX(var(--translateX));">
+				<div class="elementor-element elementor-element-8437f26 elementor-widget elementor-widget-video" data-id="8437f26" data-element_type="widget" data-settings="{&quot;video_type&quot;:&quot;hosted&quot;,&quot;autoplay&quot;:&quot;yes&quot;,&quot;loop&quot;:&quot;yes&quot;}" data-widget_type="video.default">
+				<div class="elementor-widget-container">
+							<div class="e-hosted-video elementor-wrapper elementor-open-inline">
+					<video class="elementor-video" src="../../wp-content/uploads/2024/12/756286749.469674-1.mp4" autoplay="" loop="" controlslist="nodownload"></video>
+				</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-8b06e5c e-con-full e-flex e-con e-child elementor-motion-effects-element" data-id="8b06e5c" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:7.4,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:55}}}" style="--translateY: 370px; --e-transform-transition-duration: 100ms; transform: translateY(var(--translateY));">
+				<div class="elementor-element elementor-element-9bdb569 elementor-widget elementor-widget-heading" data-id="9bdb569" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Services</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-2f92928 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="2f92928" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<i aria-hidden="true" class="fas fa-funnel-dollar"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Foreign credit card holders can choose to pay in the currency of the cardholder						</span>
+					</h5>
+				
+									<p class="elementor-icon-box-description">
+                    Or withdraw money in the cardholder's own currency at the exchange rate on the transaction date via a credit card reader, such as an Electronic Data Capture (EDC) reader, payment gateway, or automatic teller machine (ATM).			</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-0c33276 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="0c33276" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="512" height="512"><g id="_9-koh_lanta_island" data-name="9-koh lanta island"><path d="M59,43a4.81706,4.81706,0,0,0-1.43359.2168A3.99128,3.99128,0,0,0,50,45a4,4,0,0,0,0,8h9a5,5,0,0,0,0-10Zm0,8H50a2,2,0,0,1,0-4,1.97286,1.97286,0,0,1,.873.21436.9999.9999,0,0,0,1.34131-1.34131A1.97286,1.97286,0,0,1,52,45a1.99441,1.99441,0,0,1,3.97021-.27734.99986.99986,0,0,0,1.5044.71484A2.93064,2.93064,0,0,1,59,45a3,3,0,0,1,0,6Z"></path><path d="M18,7a5.00588,5.00588,0,0,0-5-5,4.81706,4.81706,0,0,0-1.43359.2168A3.99128,3.99128,0,0,0,4,4a4,4,0,0,0,0,8h9A5.00588,5.00588,0,0,0,18,7ZM2,8A2.002,2.002,0,0,1,4,6a1.97286,1.97286,0,0,1,.87305.21436A.9999.9999,0,0,0,6.21436,4.87305,1.97286,1.97286,0,0,1,6,4a1.99441,1.99441,0,0,1,3.97021-.27734.99986.99986,0,0,0,1.5044.71484A2.93064,2.93064,0,0,1,13,4a3,3,0,0,1,0,6H4A2.002,2.002,0,0,1,2,8Z"></path><path d="M41.92871,57.62842A1.00123,1.00123,0,0,0,41,57H37.30273l-1.916-1.27734,1.44531-2.168a1.00048,1.00048,0,0,0,.0625-1.002l-2-4A.99985.99985,0,0,0,34,48H31.7207L31.144,46.27l2.563-2.563A1.00012,1.00012,0,0,0,34,43V40.30273l1.832-2.748a1.00027,1.00027,0,0,0,.13818-.79737L35.04053,33.04l.61523-1.84522L38,31.78076V34a1,1,0,0,0,1,1h3.38184l.72363,1.44727a1.001,1.001,0,0,0,.33984.38476l3,2a1.00041,1.00041,0,0,0,1.44922-.38476l1-2a1.00216,1.00216,0,0,0,.03418-.81885l-1.75537-4.3877,3.33789-3.33789,3.37256-.84277,1.66894.83447A1.00067,1.00067,0,0,0,56,28h4a.99978.99978,0,0,0,.98047-.80371l1-5a.99822.99822,0,0,0-.18067-.79639L59,17.6665V14a.9993.9993,0,0,0-.37549-.78076l-5-4a.99954.99954,0,0,0-.99609-.14795l-4.65967,1.86426-2.65234-.88428a1.01261,1.01261,0,0,0-.59131-.0127l-5.17676,1.479.26953-.8086,1.6294-.81445a1.00026,1.00026,0,0,0,.52294-1.13721l-1-4A1.00026,1.00026,0,0,0,40,4H37.38721l.56152-1.68359a1.00013,1.00013,0,0,0-.63232-1.26514l-3-1a1.002,1.002,0,0,0-.63282,0l-3,1a1.0547,1.0547,0,0,0-.13086.0542L28.76416,2H25a.99985.99985,0,0,0-.89453.55273l-1.92725,3.855L20.293,8.293a1.00042,1.00042,0,0,0-.26318.94971l1,4a1.0012,1.0012,0,0,0,.33007.52539l5.15869,4.29931L25.293,19.293a.9961.9961,0,0,0-.1875.25976l-2,4a.99991.99991,0,0,0,.27,1.228l4.769,3.81543,1.82276,5.46826-.88868,4.44239L26.293,41.293A1.00012,1.00012,0,0,0,26,42v2.76416l-1.89453,3.78857a.99981.99981,0,0,0-.0542.76368l1,3A1,1,0,0,0,26,53h1.43408L30.168,57.55469l2,3a1.00024,1.00024,0,0,0,.51562.394L35.46,61.874l1.833,1.833A1.00012,1.00012,0,0,0,38,64h5a1.00033,1.00033,0,0,0,.92871-1.37158ZM38.41406,62l-1.707-1.707a1.00382,1.00382,0,0,0-.39062-.2417l-2.67481-.8916-1.78418-2.67432-3-5A.99975.99975,0,0,0,28,51H26.7207l-.64111-1.92334,1.81494-3.62939A1.00067,1.00067,0,0,0,28,45V42.41406l2.707-2.707a.99892.99892,0,0,0,.27344-.51074l1-5a.999.999,0,0,0-.03174-.5127l-2-6a.9974.9974,0,0,0-.32422-.46435l-4.36865-3.49512,1.56592-3.13183L28.707,18.707a.9995.9995,0,0,0-.06689-1.4751l-5.749-4.791-.78369-3.13428L23.707,7.707a.9961.9961,0,0,0,.1875-.25976L25.61816,4H29a1.00067,1.00067,0,0,0,.44727-.10547l1.93652-.96826L34,2.0542l1.73486.57812-.68359,2.05127A1.00055,1.00055,0,0,0,36,6h3.21924l.61621,2.46436-1.28272.64111a1.00049,1.00049,0,0,0-.50146.57812l-1,3a1.00024,1.00024,0,0,0,1.22363,1.27784l6.70215-1.915,2.70654.90234a1.00106,1.00106,0,0,0,.688-.02l4.459-1.78369L57,14.48047V18a1.00071,1.00071,0,0,0,.2002.6001l2.73144,3.64209L59.18018,26H56.23584l-1.78857-.89453a.99831.99831,0,0,0-.69-.07568l-4,1a.99628.99628,0,0,0-.46435.26318l-4,4a1.00067,1.00067,0,0,0-.22168,1.07861l1.8335,4.583-.29249.585-1.83642-1.22412-.88135-1.7627A.99985.99985,0,0,0,43,33H40V31a1.00026,1.00026,0,0,0-.75732-.97021l-4-1a.998.998,0,0,0-1.19141.6538l-1,3a1.004,1.004,0,0,0-.02148.55909l.89257,3.5708L32.168,39.44531A1.00094,1.00094,0,0,0,32,40v2.58594l-2.707,2.707a.9999.9999,0,0,0-.2417,1.02344l1,3A1,1,0,0,0,31,50h2.38184l1.46435,2.92822L33.168,55.44531a1.00017,1.00017,0,0,0,.27734,1.38672l3,2A1.00094,1.00094,0,0,0,37,59h3.32275l1.2002,3Z"></path><path d="M13,40a.99879.99879,0,0,0,.74414-.332C14.38477,38.9541,20,32.59277,20,29A7,7,0,0,0,6,29c0,3.59277,5.61523,9.9541,6.25586,10.668A.99879.99879,0,0,0,13,40Zm0-16a5.00588,5.00588,0,0,1,5,5c0,1.90625-2.81641,5.88379-5,8.4751C10.81592,34.88525,8,30.90869,8,29A5.00588,5.00588,0,0,1,13,24Z"></path><path d="M16,29a3,3,0,1,0-3,3A3.00328,3.00328,0,0,0,16,29Zm-4,0a1,1,0,1,1,1,1A1.0013,1.0013,0,0,1,12,29Z"></path><rect x="20" y="50" width="2" height="2"></rect><rect x="16" y="50" width="2" height="2"></rect><rect x="12" y="50" width="2" height="2"></rect><rect x="12" y="46" width="2" height="2"></rect><rect x="12" y="42" width="2" height="2"></rect></g></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							The credit card reader will display information on the screen						</span>
+					</h5>
+				
+									<p class="elementor-icon-box-description">
+							Allow the cardholder to know the amount of Thai baht, exchange rate on the transaction date, and the amount in the cardholder's own currency to allow foreign cardholders to choose to make a transaction					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-dcd6498 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="dcd6498" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<i aria-hidden="true" class="fas fa-receipt"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Details of the slip cell						</span>
+					</h5>
+				
+									<p class="elementor-icon-box-description">
+							Will show the amount of Thai baht, exchange rate on the transaction date, and the amount in the cardholder's own currency					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-b766c91 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="b766c91" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<i aria-hidden="true" class="fas fa-chart-line"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Merchants who use the currency conversion service will receive the amount of money transferred in Thai baht						</span>
+					</h5>
+				
+									<p class="elementor-icon-box-description">
+							While the foreign cardholder will know the amount of money to be paid for the product or service in the cardholder's own currency					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-358ce72 e-flex e-con-boxed e-con e-parent" data-id="358ce72" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+					<div class="e-con-inner elementor-motion-effects-parent">
+		<div class="elementor-element elementor-element-da9e166 e-con-full e-flex e-con e-child" data-id="da9e166" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+				<div class="elementor-element elementor-element-ff5ad33 elementor-widget elementor-widget-heading" data-id="ff5ad33" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<p class="elementor-heading-title elementor-size-default">Benefits of the service for foreign cardholders</p>				</div>
+				</div>
+				<div class="elementor-element elementor-element-b9fdc8c elementor-widget-divider--view-line elementor-widget elementor-widget-divider" data-id="b9fdc8c" data-element_type="widget" data-widget_type="divider.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-divider">
+			<span class="elementor-divider-separator">
+						</span>
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-48186e1 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="48186e1" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Capa_1" height="512" viewBox="0 0 512 512" width="512"><g><path d="m457.096 325.299c-2.929 2.929-2.929 7.678 0 10.606 5.566 5.566 5.566 14.623 0 20.189-2.929 2.929-2.929 7.678.001 10.606 3.535 2.929 7.071 2.929 10.606 0 11.414-11.415 11.414-29.988 0-41.402-2.93-2.927-7.678-2.927-10.607.001z"></path><path d="m494.484 303.693c-2.929-2.929-7.677-2.929-10.607 0-2.929 2.929-2.929 7.677 0 10.606 17.479 17.48 17.479 45.922 0 63.401-2.929 2.929-2.929 7.678 0 10.606 3.536 2.929 7.072 2.929 10.607 0 23.327-23.327 23.327-61.285 0-84.613z"></path><path d="m404.27 224.67h-106.25v-177.17c0-26.191-21.309-47.5-47.5-47.5h-203c-26.191 0-47.5 21.309-47.5 47.5v81.312c0 4.142 3.357 7.5 7.5 7.5s7.5-3.358 7.5-7.5v-81.312c0-17.92 14.579-32.5 32.5-32.5h41.117l12.111 21.499c4.866 8.637 14.047 14.001 23.959 14.001h48.624c9.912 0 19.094-5.365 23.96-14.002l12.112-21.498h41.117c17.921 0 32.5 14.58 32.5 32.5v177.17h-213.328c-13.945 0-25.29 11.345-25.29 25.29v192.08c0 13.945 11.345 25.29 25.29 25.29h213.206c-1.438 16.6-15.41 29.67-32.378 29.67h-203c-17.921 0-32.5-14.58-32.5-32.5v-307.406c0-4.142-3.357-7.5-7.5-7.5s-7.5 3.358-7.5 7.5v307.406c0 26.191 21.309 47.5 47.5 47.5h203c25.241 0 45.947-19.791 47.416-44.67h46.087c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-274.331c-5.674 0-10.29-4.616-10.29-10.29v-192.08c0-5.674 4.616-10.29 10.29-10.29h334.578c5.674 0 10.29 4.616 10.29 10.29v192.08c0 5.674-4.616 10.29-10.29 10.29h-30.266c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h30.266c13.945 0 25.29-11.345 25.29-25.29v-192.08c0-13.944-11.344-25.29-25.29-25.29zm-220.046-195.535c-2.212 3.926-6.386 6.365-10.892 6.365h-48.624c-4.505 0-8.679-2.439-10.891-6.364l-7.963-14.136h86.332z"></path><path d="m101.27 385.967h47.144c9.04 0 16.395-7.355 16.395-16.395v-47.144c0-9.04-7.354-16.395-16.395-16.395h-47.144c-9.04 0-16.396 7.355-16.396 16.395v47.144c.001 9.04 7.356 16.395 16.396 16.395zm0-64.934h47.144c.769 0 1.395.626 1.395 1.395v16.072h-6.731c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h6.731v16.072c0 .769-.626 1.395-1.395 1.395h-47.144c-.77 0-1.396-.626-1.396-1.395v-16.072h6.732c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-6.732v-16.072c.001-.769.627-1.395 1.396-1.395z"></path><path d="m392.51 291.792v-.011c0-16.6-13.505-30.104-30.104-30.104h-22.927c-16.6 0-30.104 13.505-30.104 30.116 0 16.6 13.505 30.104 30.104 30.104h22.927c16.599-.001 30.104-13.506 30.104-30.105zm-15 0c0 8.329-6.775 15.104-15.104 15.104h-22.927c-8.329 0-15.104-6.776-15.104-15.116 0-8.329 6.775-15.104 15.104-15.104h22.927c8.329 0 15.104 6.776 15.104 15.104z"></path><path d="m92.375 425.375h180.569c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5h-180.569c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5z"></path><path d="m354.734 410.375h-45.828c-4.143 0-7.5 3.358-7.5 7.5s3.357 7.5 7.5 7.5h45.828c4.143 0 7.5-3.358 7.5-7.5s-3.357-7.5-7.5-7.5z"></path><path d="m215.205 140.392c0-36.063-29.69-65.403-66.185-65.403s-66.185 29.339-66.185 65.403c0 36.063 29.69 65.402 66.185 65.402s66.185-29.339 66.185-65.402zm-117.369 0c0-27.792 22.961-50.403 51.185-50.403s51.185 22.611 51.185 50.403-22.961 50.402-51.185 50.402-51.185-22.61-51.185-50.402z"></path><path d="m179.944 119.186c-2.93-2.929-7.678-2.929-10.607 0l-29.301 29.301-11.333-11.332c-2.928-2.929-7.677-2.929-10.606 0s-2.929 7.678 0 10.606l16.636 16.635c3.536 2.929 7.072 2.929 10.607 0l34.604-34.604c2.929-2.928 2.929-7.677 0-10.606z"></path></g></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Foreign cardholders can choose to pay for products or services in the cardholder's own currency						</span>
+					</h5>
+				
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-d4e24e4 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="d4e24e4" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><g id="Headphone"><path d="M49.5,56.88A10.5,10.5,0,1,1,60,46.38,10.52,10.52,0,0,1,49.5,56.88Zm0-19a8.5,8.5,0,1,0,8.5,8.5A8.51,8.51,0,0,0,49.5,37.88ZM46.33,50.54a1,1,0,0,1-.7-1.71L48.5,46V41.63a1,1,0,1,1,2,0v4.75a1,1,0,0,1-.29.7L47,50.25A1,1,0,0,1,46.33,50.54ZM34,50H12.17A8.13,8.13,0,0,1,4,41.93V23.07A8.13,8.13,0,0,1,12.17,15H51.83a8.24,8.24,0,0,1,6.08,2.68A8,8,0,0,1,60,23.07V34a1,1,0,0,1-2,0V23.07a6,6,0,0,0-1.57-4,6.22,6.22,0,0,0-4.6-2H12.17A6.13,6.13,0,0,0,6,23.07V41.93A6.13,6.13,0,0,0,12.17,48H34a1,1,0,0,1,0,2Zm-3-7H29a1,1,0,0,1,0-2h2a1,1,0,0,1,0,2Zm-6,0H23a1,1,0,0,1,0-2h2a1,1,0,0,1,0,2Zm-6,0H17a1,1,0,0,1,0-2h2a1,1,0,0,1,0,2Zm-6,0H11a1,1,0,0,1,0-2h2a1,1,0,0,1,0,2Zm15-4H21a1,1,0,0,1,0-2h7a1,1,0,0,1,0,2ZM17,39H11a1,1,0,0,1,0-2h6a1,1,0,0,1,0,2Zm-.54-9H13.08a3,3,0,0,1-3-3V24a3,3,0,0,1,3-3h3.38a3,3,0,0,1,3,3v3A3,3,0,0,1,16.46,30Zm-3.38-7a1,1,0,0,0-1,1v3a1,1,0,0,0,1,1h3.38a1,1,0,0,0,1-1V24a1,1,0,0,0-1-1Zm38.53,3.87H42.94a1,1,0,0,1,0-2h8.67a1,1,0,0,1,0,2ZM49,23H43a1,1,0,0,1,0-2h6a1,1,0,0,1,0,2Z"></path></g></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Foreign cardholders will know the amount of money to be paid for the product or service in the cardholder's own currency by the amount shown on the slip cell on the transaction date						</span>
+					</h5>
+				
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-ea66a6e elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="ea66a6e" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" height="512" viewBox="0 0 64 64" width="512"><g id="Business-Management-Operation-Smartphone-Hand"><path d="m20 6h2v2h-2z"></path><path d="m24 6h8v2h-8z"></path><path d="m30 42h-4a3 3 0 0 0 0 6h4a3 3 0 0 0 0-6zm0 4h-4a1 1 0 0 1 0-2h4a1 1 0 0 1 0 2z"></path><path d="m4 28h2v-11.586l1.293 1.293 1.414-1.414-3-3a1 1 0 0 0 -1.414 0l-3 3 1.414 1.414 1.293-1.293z"></path><path d="m50 16.414v11.586h2v-11.586l1.293 1.293 1.414-1.414-3-3a1 1 0 0 0 -1.414 0l-3 3 1.414 1.414z"></path><path d="m56 46a3.94 3.94 0 0 0 -2.57.94 4.012 4.012 0 0 0 -3.43-1.94 3.94 3.94 0 0 0 -2.57.94 3.985 3.985 0 0 0 -2.43-1.81v-35.13a7.008 7.008 0 0 0 -7-7h-20a7.008 7.008 0 0 0 -7 7v18.3a3.026 3.026 0 0 0 -1.45 1.44l-4.54 9.85a11.085 11.085 0 0 0 -1.01 4.6v18.81h2v-18.81a9.038 9.038 0 0 1 .83-3.76l4.17-9.05v14.62a6.922 6.922 0 0 0 .43 2.39l-.99 1.71 1.73 1 6-10.39a2 2 0 0 1 1.21-.94 2.06 2.06 0 0 1 1.52.2 2.009 2.009 0 0 1 .73 2.74l-4.5 7.79a1.031 1.031 0 0 0 .01 1.02l2.14 3.56a4.987 4.987 0 0 1 .72 2.57v5.34h2v-5.34a7.026 7.026 0 0 0 -1-3.6l-.63-1.05h6.17a4.033 4.033 0 0 0 .4 3.04l4.31 7.46 1.73-1-4.31-7.46a2 2 0 0 1 2.25-2.94 1.942 1.942 0 0 1 1.21.94l2 3.46a1.022 1.022 0 0 0 1.13.47 1 1 0 0 0 .74-.97v-19a2 2 0 0 1 4 0v16a1 1 0 0 0 2 0v-4a2 2 0 0 1 4 0v4a1 1 0 0 0 2 0v-3a2 2 0 0 1 4 0v3a1 1 0 0 0 2 0v-2a2 2 0 0 1 4 0v12h2v-12a4 4 0 0 0 -4-4zm-13-1.87a3.974 3.974 0 0 0 -1 .41v-8.54a4 4 0 0 0 -8 0v14h-1.01a4.084 4.084 0 0 0 -1.55-.83 4.038 4.038 0 0 0 -3.04.4 4.247 4.247 0 0 0 -.59.43h-8.64l-.01-.01 4.21-7.28a4 4 0 1 0 -6.93-4l-3.44 5.95v-35.66a5 5 0 0 1 5-5h20a5 5 0 0 1 5 5z"></path><path d="m27 21h2a1 1 0 0 1 1 1h2a3 3 0 0 0 -3-3v-1h-2v1a3 3 0 0 0 0 6h2a1 1 0 0 1 0 2h-2a1 1 0 0 1 -1-1h-2a3 3 0 0 0 3 3v1h2v-1a3 3 0 0 0 0-6h-2a1 1 0 0 1 0-2z"></path><path d="m28 14a10 10 0 1 0 10 10 10.011 10.011 0 0 0 -10-10zm0 18a8 8 0 1 1 8-8 8.009 8.009 0 0 1 -8 8z"></path><path d="m50 30h2v2h-2z"></path><path d="m50 34h2v2h-2z"></path><path d="m4 30h2v2h-2z"></path></g></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Foreign cardholders do not have to bear the risk of exchange rate fluctuations						</span>
+					</h5>
+				
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-03f2cc7 e-con-full e-flex e-con e-child elementor-motion-effects-element" data-id="03f2cc7" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:7.8,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}}}" style="--translateY: 390px; --e-transform-transition-duration: 100ms; transform: translateY(var(--translateY));">
+				<div class="elementor-element elementor-element-f086ac1 elementor-widget elementor-widget-image" data-id="f086ac1" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="1500" height="2250" src="../../wp-content/uploads/2024/11/person-using-nfc-technology-pay-restaurant-1-1.jpg" class="attachment-full size-full wp-image-1107" alt="" srcset="../../wp-content/uploads/2024/11/person-using-nfc-technology-pay-restaurant-1-1.jpg 1500w, ../../wp-content/uploads/2024/11/person-using-nfc-technology-pay-restaurant-1-1-200x300.jpg 200w, ../../wp-content/uploads/2024/11/person-using-nfc-technology-pay-restaurant-1-1-683x1024.jpg 683w, ../../wp-content/uploads/2024/11/person-using-nfc-technology-pay-restaurant-1-1-768x1152.jpg 768w, ../../wp-content/uploads/2024/11/person-using-nfc-technology-pay-restaurant-1-1-1024x1536.jpg 1024w, ../../wp-content/uploads/2024/11/person-using-nfc-technology-pay-restaurant-1-1-1365x2048.jpg 1365w" sizes="(max-width: 1500px) 100vw, 1500px">															</div>
+				</div>
+				</div>
+					</div>
+				</div>
+		<div class="elementor-element elementor-element-3b60b79 e-con-full e-flex e-con e-parent elementor-motion-effects-parent" data-id="3b60b79" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+		<div class="elementor-element elementor-element-745204a e-con-full e-flex e-con e-child elementor-motion-effects-element" data-id="745204a" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[],&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateX_direction&quot;:&quot;negative&quot;,&quot;motion_fx_translateX_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:10,&quot;sizes&quot;:[]},&quot;motion_fx_translateX_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:48}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;]}" style="--translateX: -500px; --e-transform-transition-duration: 100ms; transform: translateX(var(--translateX));">
+				<div class="elementor-element elementor-element-48574a8 elementor-widget elementor-widget-image" data-id="48574a8" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" width="1600" height="1067" src="../../wp-content/uploads/2024/11/cropped-shot-male-hand-paying-contactless-his-order-coffee-shop-sitting-counter-with-1.jpg" class="attachment-full size-full wp-image-1109" alt="" srcset="../../wp-content/uploads/2024/11/cropped-shot-male-hand-paying-contactless-his-order-coffee-shop-sitting-counter-with-1.jpg 1600w, ../../wp-content/uploads/2024/11/cropped-shot-male-hand-paying-contactless-his-order-coffee-shop-sitting-counter-with-1-300x200.jpg 300w, ../../wp-content/uploads/2024/11/cropped-shot-male-hand-paying-contactless-his-order-coffee-shop-sitting-counter-with-1-1024x683.jpg 1024w, ../../wp-content/uploads/2024/11/cropped-shot-male-hand-paying-contactless-his-order-coffee-shop-sitting-counter-with-1-768x512.jpg 768w, ../../wp-content/uploads/2024/11/cropped-shot-male-hand-paying-contactless-his-order-coffee-shop-sitting-counter-with-1-1536x1024.jpg 1536w" sizes="(max-width: 1600px) 100vw, 1600px">															</div>
+				</div>
+				</div>
+		<div class="elementor-element elementor-element-1a486f8 e-con-full e-flex e-con e-child elementor-motion-effects-element" data-id="1a486f8" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[],&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:9.2,&quot;sizes&quot;:[]},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;],&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}}}" style="--translateY: 459.99999999999994px; --e-transform-transition-duration: 100ms; transform: translateY(var(--translateY));">
+				<div class="elementor-element elementor-element-1063334 elementor-widget elementor-widget-heading" data-id="1063334" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Benefits of the service for merchants</h2>				</div>
+				</div>
+				<div class="elementor-element elementor-element-5bddf67 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="5bddf67" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" height="512" viewBox="0 0 124 124" width="512"><path d="m118.052 26.953-88.813-15.842c-3.892-.7-7.673 2.023-8.348 5.894l-5.72 32.814h-8.171c-3.86 0-7 3.141-7 7v49.18c0 3.859 3.14 7 7 7h90.587c3.86 0 7-3.141 7-7v-17.293c2.595.463 5.1 1.009 7.499-.426 1.8-1.077 3.091-2.934 3.452-5.003l8.352-47.916c.687-3.941-1.932-7.713-5.838-8.408zm-93.22-9.261c.3-1.719 1.968-2.954 3.705-2.644l88.813 15.842c1.743.311 2.909 2.008 2.6 3.783l-1.378 7.91-95.122-16.966zm75.755 88.307c0 1.654-1.346 3-3 3h-90.587c-1.654 0-3-1.346-3-3v-49.18c0-1.654 1.346-3 3-3h90.587c1.654 0 3 1.346 3 3zm11.011-23.409c-.622 3.557-4.572 2.488-7.011 2.053v-27.824c0-3.859-3.14-7-7-7h-78.355l3.531-20.262 5.794 1.033 89.327 15.933z"></path><path d="m47.119 101.003h-11.5c-1.104 0-2-.896-2-2s.896-2 2-2h11.5c1.104 0 2 .896 2 2s-.895 2-2 2z"></path><path d="m25.271 101.003h-11.5c-1.104 0-2-.896-2-2s.896-2 2-2h11.5c1.104 0 2 .896 2 2s-.896 2-2 2z"></path><path d="m68.967 101.003h-11.5c-1.104 0-2-.896-2-2s.896-2 2-2h11.5c1.104 0 2 .896 2 2s-.895 2-2 2z"></path><path d="m90.816 101.003h-11.5c-1.104 0-2-.896-2-2s.896-2 2-2h11.5c1.104 0 2 .896 2 2s-.896 2-2 2z"></path><path d="m30.438 90.627h-14.486c-2.757 0-5-2.243-5-5v-5.744c0-2.757 2.243-5 5-5h14.486c2.757 0 5 2.243 5 5v5.744c0 2.756-2.244 5-5 5zm-14.486-11.745c-.551 0-1 .448-1 1v5.744c0 .552.449 1 1 1h14.486c.551 0 1-.448 1-1v-5.744c0-.552-.449-1-1-1z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Merchants will benefit						</span>
+					</h5>
+				
+									<p class="elementor-icon-box-description">
+							If the cardholder chooses to pay in the currency of the cardholder					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-483c6a2 elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="483c6a2" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 512 512"><path d="m486.945 278.885h-110.502c-9.404 0-17.055 7.651-17.055 17.056v191.008c0 9.404 7.651 17.055 17.055 17.055h110.501c9.404 0 17.055-7.65 17.055-17.055v-191.008c.001-9.404-7.65-17.056-17.054-17.056zm-29.966 16-1.63 4.409h-47.31l-1.63-4.409zm31.021 192.064c0 .562-.493 1.055-1.055 1.055h-110.502c-.562 0-1.055-.493-1.055-1.055v-191.008c0-.562.493-1.056 1.055-1.056h12.907l5.614 15.184c1.161 3.141 4.155 5.226 7.503 5.226h58.452c3.348 0 6.342-2.085 7.503-5.226l5.614-15.184h12.907c.562 0 1.055.493 1.055 1.056v191.008zm-39.037-11.815c0 4.418-3.582 8-8 8l-18.538-.001c-4.418 0-8-3.582-8-8s3.582-8 8-8l18.538.001c4.419 0 8 3.582 8 8zm-181.652-43.54c-.146 0-.299.001-.447.001l-69.27.265c-1.114 0-2.187-.044-3.25-.145.295-.271.587-.552.875-.84 9.373-9.373 9.499-24.72.286-34.938-.241-.268-.5-.519-.775-.751-13.175-11.143-24.729-24.853-34.013-35.869-3.263-3.871-6.344-7.527-9.053-10.532-11.493-12.752-27.245-14.473-41.185-14.438l-48.744.06.05-5.81c.08-9.27-7.397-16.876-16.667-16.957l-19.298-.166c-.049 0-.096 0-.145 0-9.203 0-16.732 7.447-16.812 16.669l-.862 100.244c-.039 4.481 1.676 8.716 4.83 11.923 3.153 3.207 7.356 4.995 11.838 5.034l19.297.166h.149c4.426 0 8.603-1.712 11.775-4.83 3.208-3.152 4.996-7.357 5.034-11.839l.066-7.669h7.942l55.336 55.335c9.537 9.538 21.479 14.551 34.622 14.551.489 0 .979-.007 1.471-.021l127.519-3.613c13.014-.368 24.662-13.406 24.438-27.354-.108-6.695-3.674-28.476-45.007-28.476zm-222.637-2.324c-.114.11-.298.263-.57.24l-19.297-.166c-.267-.002-.455-.138-.566-.25-.111-.113-.242-.304-.24-.569l.861-100.243c.004-.424.392-.807.814-.807h.006l19.297.166c.426.003.81.395.807.82l-.727 84.708v.002.001l-.133 15.532c-.004.266-.139.455-.252.566zm242.753 42.16-127.519 3.613c-9.354.265-17.528-3.051-24.327-9.85l-57.679-57.679c-1.5-1.5-3.535-2.343-5.656-2.343h-11.12l.47-54.764 48.901-.06c14.94-.059 23.407 2.633 29.281 9.149 2.531 2.808 5.391 6.201 8.703 10.131 9.565 11.35 21.442 25.443 35.444 37.375 3.266 3.927 3.284 9.253-.021 12.559-1.318 1.318-5.311 5.293-12.532-.031-6.6-5.876-12.588-12.06-18.92-18.602-3.048-3.149-6.199-6.406-9.485-9.692-3.124-3.123-8.189-3.123-11.313 0-3.124 3.125-3.124 8.189 0 11.314 3.193 3.193 6.298 6.401 9.301 9.504 6.645 6.867 12.922 13.354 20.097 19.713.042.037.086.068.128.104.041.034.076.073.118.106l5.847 4.774c9.2 7.474 19.116 11.108 30.314 11.107h.194l69.271-.265c.124-.001.247-.001.37-.001 17.788 0 28.898 4.866 29.024 12.732.091 5.59-4.932 10.995-8.891 11.106zm-246.63-129.449c-1.223 3.077-4.71 4.58-7.787 3.356-3.077-1.223-4.58-4.71-3.357-7.787s4.71-4.58 7.787-3.357c3.078 1.224 4.581 4.711 3.357 7.788zm-24.797-143.827h246.616l31.942 31.941c4.372 4.372 10.2 6.78 16.411 6.78 6.21 0 12.039-2.408 16.41-6.779l113.198-113.197c4.371-4.371 6.779-10.199 6.779-16.41s-2.408-12.039-6.779-16.41l-69.297-69.297c-9.049-9.047-23.772-9.047-32.82 0l-25.162 25.162c-1.383-1.141-3.155-1.826-5.088-1.826h-292.21c-4.418 0-8 3.582-8 8v144.036c0 4.418 3.582 8 8 8zm227.103-88.017h-23.53c-4.418 0-8 3.582-8 8s3.582 8 8 8h7.53l-1.842 1.842c-7.941 7.941-8.909 20.251-2.91 29.264h-158.372c-2.475-7.588-8.369-13.605-15.818-16.159v-45.895c7.449-2.554 13.344-8.571 15.818-16.159h196.247c1.072 3.305 2.802 6.337 5.062 8.922zm188.251-9.648c0 1.938-.743 3.747-2.093 5.097l-113.197 113.197c-1.349 1.35-3.159 2.093-5.096 2.093s-3.747-.743-5.097-2.094l-51.261-51.26 123.39-123.39 51.261 51.261c1.35 1.349 2.093 3.159 2.093 5.096zm-81.582-74.393c1.405-1.405 3.25-2.107 5.096-2.107s3.691.702 5.097 2.107l6.722 6.722-123.39 123.39-6.721-6.721c-2.811-2.811-2.811-7.384 0-10.193zm-325.772 28.022h275.123l-22.443 22.442c-1.085-1.578-1.716-3.491-1.716-5.53 0-4.418-3.582-8-8-8h-209.72c-4.418 0-8 3.582-8 8 0 5.231-4.075 9.488-9.083 9.488-4.418 0-8 3.582-8 8v59.236c0 4.418 3.582 8 8 8 5.009 0 9.083 4.257 9.083 9.488 0 4.418 3.582 8 8 8h180.46l8.911 8.911h-222.615zm88.633 64.019c0 4.418-3.582 8-8 8h-25.756c-4.418 0-8-3.582-8-8s3.582-8 8-8h25.756c4.418 0 8 3.582 8 8zm50.807-8.054c-.602-.099-5.88-1.012-5.96-2.657-.088-1.812 2.325-2.503 3.067-2.671.541-.122 5.329-1.075 7.101 3.146 1.71 4.074 6.398 5.989 10.473 4.279 4.074-1.71 5.989-6.399 4.279-10.473-2.384-5.679-6.867-9.8-12.309-11.8-.237-4.205-3.722-7.542-7.987-7.542-4.297 0-7.803 3.389-7.992 7.639-8.043 2.949-13.014 9.957-12.614 18.197.19 3.908 1.713 9.917 8.521 13.99-1.248-.322-2.592-.346-3.93-.014-4.287 1.069-6.896 5.411-5.827 9.698 1.747 7.004 6.944 12.26 13.858 14.557.271 4.173 3.742 7.474 7.983 7.474 4.19 0 7.628-3.222 7.972-7.322 4.105-1.212 7.667-3.355 10.124-6.195 3.109-3.595 4.439-8.07 3.848-12.944-.789-6.506-5.005-14.8-20.607-17.362zm4.728 19.745c-.248.526-2.479 1.798-5.681 1.874-.588.015-5.771.029-6.7-3.696-.438-1.758-1.427-3.234-2.737-4.29 2.176.914 4.751 1.657 7.798 2.157 4.665.766 7.126 1.943 7.315 3.501.035.277.014.426.005.454zm158.209 12.157c-4.505-4.503-11.838-4.504-16.344 0 0 .001-.001.001-.001.002l-19.059 19.059c-4.506 4.506-4.506 11.839 0 16.347l12.302 12.302c2.18 2.182 5.083 3.383 8.175 3.383 3.091 0 5.994-1.201 8.173-3.381l19.058-19.058c2.181-2.181 3.382-5.084 3.382-8.175 0-3.09-1.201-5.992-3.381-8.172zm-14.926 33.257-6.023-6.023 12.778-12.777 6.023 6.022zm73.582-108.256c3.124-3.123 8.189-3.123 11.313 0 3.124 3.125 3.125 8.189 0 11.314l-40.216 40.217c-1.562 1.562-3.609 2.343-5.657 2.343s-4.095-.781-5.657-2.343c-3.124-3.125-3.125-8.189 0-11.314zm14.811 27.964c3.124 3.125 3.124 8.189 0 11.314l-27.983 27.983c-1.562 1.562-3.609 2.343-5.657 2.343s-4.095-.781-5.657-2.343c-3.124-3.125-3.124-8.189 0-11.314l27.983-27.983c3.125-3.123 8.19-3.123 11.314 0zm31.85 125.779c-14.24 0-27.667 6.114-37.81 17.215-2.98 3.263-8.04 3.491-11.302.511s-3.49-8.04-.51-11.302c13.21-14.46 30.833-22.424 49.622-22.424 18.79 0 36.412 7.964 49.622 22.424 2.98 3.262 2.751 8.322-.51 11.302-1.535 1.402-3.467 2.094-5.394 2.094-2.169 0-4.331-.877-5.909-2.604-10.141-11.103-23.568-17.216-37.809-17.216zm0-42.569c25.272 0 48.991 10.727 66.787 30.204 2.98 3.262 2.752 8.322-.51 11.303-1.534 1.401-3.467 2.094-5.394 2.094-2.169 0-4.33-.877-5.908-2.604-14.729-16.12-34.252-24.997-54.976-24.997-20.723 0-40.247 8.877-54.976 24.997-2.98 3.26-8.04 3.491-11.302.51-3.262-2.98-3.49-8.041-.509-11.303 17.798-19.478 41.517-30.204 66.788-30.204zm32.456 67.78c2.98 3.262 2.751 8.322-.51 11.303-1.534 1.401-3.467 2.094-5.394 2.094-2.169 0-4.33-.876-5.909-2.604-5.558-6.084-12.889-9.434-20.644-9.434s-15.086 3.35-20.644 9.434c-2.98 3.261-8.04 3.489-11.302.51-3.262-2.98-3.49-8.041-.51-11.303 8.626-9.441 20.153-14.641 32.456-14.641s23.831 5.2 32.457 14.641zm-4.199 159.215c.732 6.034-.903 11.561-4.729 15.984-3.61 4.174-9.155 7.175-15.528 8.542v1.825c0 4.418-3.582 8-8 8s-8-3.582-8-8v-1.963c-10.088-2.479-17.769-9.559-20.188-19.266-1.069-4.287 1.54-8.629 5.827-9.698 4.288-1.062 8.628 1.541 9.697 5.827 1.539 6.173 8.125 8.21 13.305 8.096 4.492-.106 8.927-1.682 10.785-3.83.6-.693 1.181-1.661.947-3.589-.221-1.822-.74-6.092-13.611-8.204-21.029-3.454-24.724-15.426-25.056-22.254-.538-11.081 6.76-20.404 18.293-23.594v-2.109c0-4.418 3.582-8 8-8s8 3.582 8 8v2.037c7.438 1.977 14.394 6.937 18.122 15.815 1.71 4.073-.205 8.763-4.279 10.473-4.076 1.712-8.763-.205-10.473-4.279-3.014-7.178-10.487-7.581-14.427-6.686-1.769.401-7.519 2.133-7.255 7.566.071 1.469.26 5.368 11.667 7.241 16.4 2.694 25.452 10.118 26.903 22.066zm-115.099-36.283c0 4.418-3.582 8-8 8h-98.754c-4.418 0-8-3.582-8-8s3.582-8 8-8h98.754c4.418 0 8 3.582 8 8zm-81.416-141.016c3.826 2.209 5.137 7.102 2.928 10.928l-49.377 85.524c-1.482 2.566-4.171 4.001-6.936 4.001-1.357 0-2.733-.346-3.993-1.073-3.826-2.209-5.137-7.102-2.928-10.928l49.377-85.524c2.21-3.827 7.103-5.138 10.929-2.928zm-113.761-10.61 25.56 95.39c1.144 4.268-1.389 8.654-5.657 9.798-.693.186-1.39.274-2.075.274-3.533 0-6.765-2.357-7.723-5.932l-25.56-95.39c-1.144-4.268 1.389-8.654 5.657-9.798 4.271-1.139 8.654 1.39 9.798 5.658z"></path></svg>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+							Merchants have many options						</span>
+					</h5>
+				
+									<p class="elementor-icon-box-description">
+							To pay for products or services to foreign customers					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				<div class="elementor-element elementor-element-e0fe5ce elementor-view-stacked elementor-position-left elementor-shape-circle elementor-mobile-position-top elementor-vertical-align-top elementor-widget elementor-widget-icon-box" data-id="e0fe5ce" data-element_type="widget" data-widget_type="icon-box.default">
+				<div class="elementor-widget-container">
+							<div class="elementor-icon-box-wrapper">
+
+						<div class="elementor-icon-box-icon">
+				<span class="elementor-icon">
+				<i aria-hidden="true" class="far fa-thumbs-up"></i>				</span>
+			</div>
+			
+						<div class="elementor-icon-box-content">
+
+									<h5 class="elementor-icon-box-title">
+						<span>
+              Merchants can create satisfaction for foreign customers						</span>
+					</h5>
+				
+									<p class="elementor-icon-box-description">
+							With a service that is up to international standards					</p>
+				
+			</div>
+			
+		</div>
+						</div>
+				</div>
+				</div>
+				</div>
+				<section class="elementor-section elementor-top-section elementor-element elementor-element-20e3daf7 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="20e3daf7" data-element_type="section" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+							<div class="elementor-background-overlay"></div>
+							<div class="elementor-container elementor-column-gap-wide">
+					<div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-3f86b776 elementor-motion-effects-parent" data-id="3f86b776" data-element_type="column" data-settings="{&quot;motion_fx_motion_fx_scrolling&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_effect&quot;:&quot;yes&quot;,&quot;motion_fx_translateY_speed&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:3,&quot;sizes&quot;:[]},&quot;motion_fx_translateY_affectedRange&quot;:{&quot;unit&quot;:&quot;%&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:{&quot;start&quot;:0,&quot;end&quot;:100}},&quot;motion_fx_devices&quot;:[&quot;desktop&quot;,&quot;tablet&quot;,&quot;mobile&quot;]}">
+			<div class="elementor-widget-wrap elementor-element-populated elementor-motion-effects-element" style="--translateY: 150px; --e-transform-transition-duration: 100ms; transform: translateY(var(--translateY));">
+						<div class="elementor-element elementor-element-6ccf4e64 elementor-widget elementor-widget-heading" data-id="6ccf4e64" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Merchants with a foreign customer base are the main target</h2>				</div>
+				</div>
+				<section class="elementor-section elementor-inner-section elementor-element elementor-element-7dd820dd envato-kit-141-top-0 elementor-section-boxed elementor-section-height-default elementor-section-height-default" data-id="7dd820dd" data-element_type="section" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-439be993 elementor-invisible" data-id="439be993" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:100}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-3bf38e01 elementor-widget elementor-widget-image" data-id="3bf38e01" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="../../wp-content/uploads/elementor/thumbs/young-woman-looking-away-qy3hisv4aawuhx59xhhrjnc0zipdizcqkgr6c0yg0w.jpg" title="tourist woman and receptionist at counter in hotel wearing medical masks as precaution against virus. Young woman on a business trip doing check-in at the hotel" alt="A tourist woman and receptionist at counter in hotel wearing medical masks as precaution against virus. Young woman on a business trip doing check-in at the hotel" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-257c3a8b elementor-widget elementor-widget-heading" data-id="257c3a8b" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Hotel</h2>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-a545573 elementor-invisible" data-id="a545573" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:200}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-2756667d elementor-widget elementor-widget-image" data-id="2756667d" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="../../wp-content/uploads/elementor/thumbs/nightlife-city-bar-pub-nightclub-coffee-shop-casino-qy3hiq1lpsszj39ddy9vu61n7d39vw1jk2spw72mjk.jpg" title="nightlife-city-bar-pub-nightclub-coffee-shop-casino" alt="nightlife-city-bar-pub-nightclub-coffee-shop-casino" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-2d785830 elementor-widget elementor-widget-heading" data-id="2d785830" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Restaurant</h2>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-5e0e8ee1 elementor-invisible" data-id="5e0e8ee1" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:300}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-78916ed9 elementor-widget elementor-widget-image" data-id="78916ed9" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="../../wp-content/uploads/elementor/thumbs/library-with-lot-books-table-qxq8ni6vai6ec9lovtsjar7b6a4gw0dka8j1ir2tnk.jpg" title="library-with-lot-books-table" alt="library-with-lot-books-table" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-7b71dbb7 elementor-widget elementor-widget-heading" data-id="7b71dbb7" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">School</h2>				</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-6775dcb elementor-invisible" data-id="6775dcb" data-element_type="column" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;animation&quot;:&quot;fadeIn&quot;,&quot;animation_delay&quot;:300}">
+			<div class="elementor-widget-wrap elementor-element-populated">
+						<div class="elementor-element elementor-element-5044a7e elementor-widget elementor-widget-image" data-id="5044a7e" data-element_type="widget" data-widget_type="image.default">
+				<div class="elementor-widget-container">
+															<img decoding="async" src="../../wp-content/uploads/elementor/thumbs/yachts-monaco-harbor-qy3hima8ygnu8netzwndk6zsttlt13mm7k6rz3878g.jpg" title="yachts-monaco-harbor" alt="yachts-monaco-harbor" loading="lazy">															</div>
+				</div>
+				<div class="elementor-element elementor-element-b348bb0 elementor-widget elementor-widget-heading" data-id="b348bb0" data-element_type="widget" data-widget_type="heading.default">
+				<div class="elementor-widget-container">
+					<h2 class="elementor-heading-title elementor-size-default">Tourist Service</h2>				</div>
+				</div>
+					</div>
+		</div>
+					</div>
+		</section>
+					</div>
+		</div>
+					</div>
+		</section>
+				</div>
+		
+		
+			</div>
+
+	
+</main>
+
+<footer data-elementor-type="footer" data-elementor-id="1755" class="elementor elementor-1755 elementor-location-footer" data-elementor-settings="{&quot;element_pack_global_tooltip_width&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_width_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;size&quot;:&quot;&quot;,&quot;sizes&quot;:[]},&quot;element_pack_global_tooltip_padding&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_padding_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_tablet&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true},&quot;element_pack_global_tooltip_border_radius_mobile&quot;:{&quot;unit&quot;:&quot;px&quot;,&quot;top&quot;:&quot;&quot;,&quot;right&quot;:&quot;&quot;,&quot;bottom&quot;:&quot;&quot;,&quot;left&quot;:&quot;&quot;,&quot;isLinked&quot;:true}}" data-elementor-post-type="elementor_library">
+  <div class="elementor-element elementor-element-34315e13 e-flex e-con-boxed e-con e-parent" data-id="34315e13" data-element_type="container" data-settings="{&quot;background_background&quot;:&quot;classic&quot;,&quot;jet_parallax_layout_list&quot;:[]}">
+      <div class="e-con-inner">
+<div class="elementor-element elementor-element-193304fa e-con-full e-flex e-con e-child" data-id="193304fa" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+    <div class="elementor-element elementor-element-37bf63da elementor-position-top elementor-widget elementor-widget-image-box" data-id="37bf63da" data-element_type="widget" data-widget_type="image-box.default">
+    <div class="elementor-widget-container">
+      <div class="elementor-image-box-wrapper"><figure class="elementor-image-box-img"><img width="800" height="300" src="../../wp-content/uploads/2024/09/Logo-POLYCUBE-800X300-rgb-logo.png" class="attachment-full size-full wp-image-102" alt=""></figure></div>				</div>
+    </div>
+    <div class="elementor-element elementor-element-abda181 elementor-widget elementor-widget-text-editor" data-id="abda181" data-element_type="widget" data-widget_type="text-editor.default">
+    <div class="elementor-widget-container">
+              <p>3 Building 3, 9th Floor, Soi Lat Phrao 3, Chom Phon Subdistrict, Chatuchak District, Bangkok 10900, Thailand</p>								</div>
+    </div>
+    <div class="elementor-element elementor-element-dcd72b3 e-grid-align-left e-grid-align-mobile-center elementor-shape-rounded elementor-grid-0 elementor-widget elementor-widget-social-icons" data-id="dcd72b3" data-element_type="widget" data-widget_type="social-icons.default">
+    <div class="elementor-widget-container">
+          <div class="elementor-social-icons-wrapper elementor-grid">
+          <span class="elementor-grid-item">
+      <a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-push elementor-repeater-item-2ffba9f" target="_blank">
+        <span class="elementor-screen-only">Facebook-f</span>
+        <i class="fab fa-facebook-f"></i>					</a>
+    </span>
+          <span class="elementor-grid-item">
+      <a class="elementor-icon elementor-social-icon elementor-social-icon-twitter elementor-animation-push elementor-repeater-item-e40c902" target="_blank">
+        <span class="elementor-screen-only">Twitter</span>
+        <i class="fab fa-twitter"></i>					</a>
+    </span>
+          <span class="elementor-grid-item">
+      <a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-push elementor-repeater-item-ee5d380" target="_blank">
+        <span class="elementor-screen-only">Instagram</span>
+        <i class="fab fa-instagram"></i>					</a>
+    </span>
+          <span class="elementor-grid-item">
+      <a class="elementor-icon elementor-social-icon elementor-social-icon-youtube elementor-animation-push elementor-repeater-item-5a9ce43" target="_blank">
+        <span class="elementor-screen-only">Youtube</span>
+        <i class="fab fa-youtube"></i>					</a>
+    </span>
+      </div>
+        </div>
+    </div>
+    </div>
+<div class="elementor-element elementor-element-0f824b5 e-con-full e-flex e-con e-child" data-id="0f824b5" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+    <div class="elementor-element elementor-element-6550195 elementor-widget elementor-widget-heading" data-id="6550195" data-element_type="widget" data-widget_type="heading.default">
+    <div class="elementor-widget-container">
+      <h6 class="elementor-heading-title elementor-size-default"><a href="../index.html">Home</a></h6>				</div>
+    </div>
+    <div class="elementor-element elementor-element-0070ded elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="0070ded" data-element_type="widget" data-widget_type="icon-list.default">
+    <div class="elementor-widget-container">
+          <ul class="elementor-icon-list-items">
+          <li class="elementor-icon-list-item">
+                  <a href="../index.html#home-process">
+
+                  <span class="elementor-icon-list-text">Services Process</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="../news/">
+
+                  <span class="elementor-icon-list-text">News & Articles</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="../about.html#contactus">
+
+                  <span class="elementor-icon-list-text">Contact Us</span>
+                  </a>
+              </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+<div class="elementor-element elementor-element-c51f253 e-con-full e-flex e-con e-child" data-id="c51f253" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+    <div class="elementor-element elementor-element-a28df95 elementor-widget elementor-widget-heading" data-id="a28df95" data-element_type="widget" data-widget_type="heading.default">
+    <div class="elementor-widget-container">
+      <h6 class="elementor-heading-title elementor-size-default"><a href="../about.html">About us</a></h6>				</div>
+    </div>
+    <div class="elementor-element elementor-element-e50a951 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e50a951" data-element_type="widget" data-widget_type="icon-list.default">
+    <div class="elementor-widget-container">
+          <ul class="elementor-icon-list-items">
+          <li class="elementor-icon-list-item">
+                  <a href="../about.html">
+
+                  <span class="elementor-icon-list-text">History</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="../about.html#mission" mission="">
+
+                  <span class="elementor-icon-list-text">Vision & Mission</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="../about.html#news">
+
+                  <span class="elementor-icon-list-text">Activities</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="../about.html#certi">
+
+                  <span class="elementor-icon-list-text">Business License</span>
+                  </a>
+              </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+<div class="elementor-element elementor-element-095904c e-con-full e-flex e-con e-child" data-id="095904c" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+    <div class="elementor-element elementor-element-adcd745 elementor-widget elementor-widget-heading" data-id="adcd745" data-element_type="widget" data-widget_type="heading.default">
+    <div class="elementor-widget-container">
+      <h6 class="elementor-heading-title elementor-size-default"><a href="../product/">services</a></h6>				</div>
+    </div>
+    <div class="elementor-element elementor-element-e63f617 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="e63f617" data-element_type="widget" data-widget_type="icon-list.default">
+    <div class="elementor-widget-container">
+          <ul class="elementor-icon-list-items">
+          <li class="elementor-icon-list-item">
+                  <a href="electronic-data-capture.html">
+
+                  <span class="elementor-icon-list-text">Credit Card Readers</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="pos-application.html">
+
+                  <span class="elementor-icon-list-text">Payment Service Applications</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="dynamic-currency-conversion-dcc.html">
+
+                  <span class="elementor-icon-list-text">Currency Conversion System</span>
+                  </a>
+              </li>
+        </ul>
+        </div>
+    </div>
+    </div>
+<div class="elementor-element elementor-element-4f1d5ab e-con-full e-flex e-con e-child" data-id="4f1d5ab" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+    <div class="elementor-element elementor-element-5d407e1 elementor-widget elementor-widget-heading" data-id="5d407e1" data-element_type="widget" data-widget_type="heading.default">
+    <div class="elementor-widget-container">
+      <h6 class="elementor-heading-title elementor-size-default"><a href="../faq.html">FAQs</a></h6>				</div>
+    </div>
+    <div class="elementor-element elementor-element-dbed2f9 elementor-icon-list--layout-traditional elementor-list-item-link-full_width elementor-widget elementor-widget-icon-list" data-id="dbed2f9" data-element_type="widget" data-widget_type="icon-list.default">
+    <div class="elementor-widget-container">
+          <ul class="elementor-icon-list-items">
+          <li class="elementor-icon-list-item">
+                  <a href="../faq.html">
+
+                  <span class="elementor-icon-list-text">Credit Card Readers</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="../faq.html/#POSFAQ">
+
+                  <span class="elementor-icon-list-text">Payment Service Applications</span>
+                  </a>
+              </li>
+            <li class="elementor-icon-list-item">
+                  <a href="../faq.html/#DCCFAQ">
+
+                  <span class="elementor-icon-list-text">Currency Conversion System</span>
+                  </a>
+              </li>
+        </ul>
+        </div>
+    </div>
+    <div class="elementor-element elementor-element-e8392a8 elementor-widget elementor-widget-heading" data-id="e8392a8" data-element_type="widget" data-widget_type="heading.default">
+    <div class="elementor-widget-container">
+      <h6 class="elementor-heading-title elementor-size-default"><a href="privacy-policy/">Privacy Policy</a></h6>				</div>
+    </div>
+    </div>
+<div class="elementor-element elementor-element-9c6e801 e-con-full e-flex e-con e-child" data-id="9c6e801" data-element_type="container" data-settings="{&quot;jet_parallax_layout_list&quot;:[]}">
+    <div class="elementor-element elementor-element-32be11a elementor-widget elementor-widget-google_maps" data-id="32be11a" data-element_type="widget" data-widget_type="google_maps.default">
+    <div class="elementor-widget-container">
+          <div class="elementor-custom-embed">
+  <iframe loading="lazy" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.6641832969595!2d100.57065911485282!3d13.795470290331598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29bb6b45e7c71%3A0xc7d4582678c558b7!2sChatuchak%2C%20Bangkok!5e0!3m2!1sen!2sth!4v1735113890000!5m2!1sen!2sth" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Polycube Office Location" aria-label="Polycube Office Location"></iframe>
+</div>
+        </div>
+    </div>
+    </div>
+      </div>
+    </div>
+    </footer>
+		
+<script type="text/javascript">
+/* <![CDATA[ */
+var hasJetBlogPlaylist = 0;
+/* ]]> */
+</script>
+<script type="speculationrules">
+{"prefetch":[{"source":"document","where":{"and":[{"href_matches":"\/livedemo\/polycube\/*"},{"not":{"href_matches":["\/livedemo\/polycube\/wp-*.php","\/livedemo\/polycube\/wp-admin\/*","\/livedemo\/polycube\/wp-content\/uploads\/*","\/livedemo\/polycube\/wp-content\/*","\/livedemo\/polycube\/wp-content\/plugins\/*","\/livedemo\/polycube\/wp-content\/themes\/hello-elementor\/*","\/livedemo\/polycube\/*\\?(.+)"]}},{"not":{"selector_matches":"a[rel~=\"nofollow\"]"}},{"not":{"selector_matches":".no-prefetch, .no-prefetch a"}}]},"eagerness":"conservative"}]}
+</script>
+        <span class="ssp-id" style="display:none">267</span>
+							<script type="text/x-template" id="mobile-menu-item-template"><li
+	:id="'jet-mobile-menu-item-'+itemDataObject.itemId"
+	:class="itemClasses"
+>
+	<div
+		class="jet-mobile-menu__item-inner"
+		tabindex="0"
+		:aria-label="itemDataObject.name"
+        aria-expanded="false"
+		v-on:click="itemSubHandler"
+		v-on:keyup.enter="itemSubHandler"
+	>
+		<a
+			:class="itemLinkClasses"
+			:href="itemDataObject.url"
+			:rel="itemDataObject.xfn"
+			:title="itemDataObject.attrTitle"
+			:target="itemDataObject.target"
+		>
+			<div class="jet-menu-item-wrapper">
+				<div
+					class="jet-menu-icon"
+					v-if="isIconVisible"
+					v-html="itemIconHtml"
+				></div>
+				<div class="jet-menu-name">
+					<span
+						class="jet-menu-label"
+						v-if="isLabelVisible"
+						v-html="itemDataObject.name"
+					></span>
+					<small
+						class="jet-menu-desc"
+						v-if="isDescVisible"
+						v-html="itemDataObject.description"
+					></small>
+				</div>
+				<div
+					class="jet-menu-badge"
+					v-if="isBadgeVisible"
+				>
+					<div class="jet-menu-badge__inner" v-html="itemDataObject.badgeContent"></div>
+				</div>
+			</div>
+		</a>
+		<span
+			class="jet-dropdown-arrow"
+			v-if="isSub && !templateLoadStatus"
+			v-html="dropdownIconHtml"
+			v-on:click="markerSubHandler"
+		>
+		</span>
+		<div
+			class="jet-mobile-menu__template-loader"
+			v-if="templateLoadStatus"
+		>
+			<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="24px" height="25px" viewBox="0 0 128 128" xml:space="preserve">
+				<g>
+					<linearGradient :id="'linear-gradient-'+itemDataObject.itemId">
+						<stop offset="0%" :stop-color="loaderColor" stop-opacity="0"/>
+						<stop offset="100%" :stop-color="loaderColor" stop-opacity="1"/>
+					</linearGradient>
+				<path d="M63.85 0A63.85 63.85 0 1 1 0 63.85 63.85 63.85 0 0 1 63.85 0zm.65 19.5a44 44 0 1 1-44 44 44 44 0 0 1 44-44z" :fill="'url(#linear-gradient-'+itemDataObject.itemId+')'" fill-rule="evenodd"/>
+				<animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1080ms" repeatCount="indefinite"></animateTransform>
+				</g>
+			</svg>
+		</div>
+	</div>
+
+	<transition name="menu-container-expand-animation">
+		<mobile-menu-list
+			v-if="isDropdownLayout && subDropdownVisible"
+			:depth="depth+1"
+			:children-object="itemDataObject.children"
+		></mobile-menu-list>
+	</transition>
+
+</li>
+					</script>					<script type="text/x-template" id="mobile-menu-list-template"><div
+	class="jet-mobile-menu__list"
+	role="navigation"
+>
+	<ul class="jet-mobile-menu__items">
+		<mobile-menu-item
+			v-for="(item, index) in childrenObject"
+			:key="item.id"
+			:item-data-object="item"
+			:depth="depth"
+		></mobile-menu-item>
+	</ul>
+</div>
+					</script>					<script type="text/x-template" id="mobile-menu-template"><div
+	:class="instanceClass"
+	v-on:keyup.esc="escapeKeyHandler"
+>
+	<div
+		class="jet-mobile-menu__toggle"
+		role="button"
+		ref="toggle"
+		tabindex="0"
+		aria-label="Open/Close Menu"
+        aria-expanded="false"
+		v-on:click="menuToggle"
+		v-on:keyup.enter="menuToggle"
+	>
+		<div
+			class="jet-mobile-menu__template-loader"
+			v-if="toggleLoaderVisible"
+		>
+			<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.0" width="24px" height="25px" viewBox="0 0 128 128" xml:space="preserve">
+				<g>
+					<linearGradient :id="'linear-gradient-'+itemDataObject.itemId">
+						<stop offset="0%" :stop-color="loaderColor" stop-opacity="0"/>
+						<stop offset="100%" :stop-color="loaderColor" stop-opacity="1"/>
+					</linearGradient>
+				<path d="M63.85 0A63.85 63.85 0 1 1 0 63.85 63.85 63.85 0 0 1 63.85 0zm.65 19.5a44 44 0 1 1-44 44 44 44 0 0 1 44-44z" :fill="'url(#linear-gradient-'+itemDataObject.itemId+')'" fill-rule="evenodd"/>
+				<animateTransform attributeName="transform" type="rotate" from="0 64 64" to="360 64 64" dur="1080ms" repeatCount="indefinite"></animateTransform>
+				</g>
+			</svg>
+		</div>
+
+		<div
+			class="jet-mobile-menu__toggle-icon"
+			v-if="!menuOpen && !toggleLoaderVisible"
+			v-html="toggleClosedIcon"
+		></div>
+		<div
+			class="jet-mobile-menu__toggle-icon"
+			v-if="menuOpen && !toggleLoaderVisible"
+			v-html="toggleOpenedIcon"
+		></div>
+		<span
+			class="jet-mobile-menu__toggle-text"
+			v-if="toggleText"
+			v-html="toggleText"
+		></span>
+
+	</div>
+
+	<transition name="cover-animation">
+		<div
+			class="jet-mobile-menu-cover"
+			v-if="menuContainerVisible && coverVisible"
+			v-on:click="closeMenu"
+		></div>
+	</transition>
+
+	<transition :name="showAnimation">
+		<div
+			class="jet-mobile-menu__container"
+			v-if="menuContainerVisible"
+		>
+			<div
+				class="jet-mobile-menu__container-inner"
+			>
+				<div
+					class="jet-mobile-menu__header-template"
+					v-if="headerTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__header-template-content"
+						ref="header-template-content"
+						v-html="headerContent"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__controls"
+				>
+					<div
+						class="jet-mobile-menu__breadcrumbs"
+						v-if="isBreadcrumbs"
+					>
+						<div
+							class="jet-mobile-menu__breadcrumb"
+							v-for="(item, index) in breadcrumbsPathData"
+							:key="index"
+						>
+							<div
+								class="breadcrumb-label"
+								v-on:click="breadcrumbHandle(index+1)"
+								v-html="item"
+							></div>
+							<div
+								class="breadcrumb-divider"
+								v-html="breadcrumbIcon"
+								v-if="(breadcrumbIcon && index !== breadcrumbsPathData.length-1)"
+							></div>
+						</div>
+					</div>
+					<div
+						class="jet-mobile-menu__back"
+						role="button"
+						ref="back"
+						tabindex="0"
+						aria-label="Close Menu"
+                        aria-expanded="false"
+						v-if="!isBack && isClose"
+						v-html="closeIcon"
+						v-on:click="menuToggle"
+						v-on:keyup.enter="menuToggle"
+					></div>
+					<div
+						class="jet-mobile-menu__back"
+						role="button"
+						ref="back"
+						tabindex="0"
+						aria-label="Back to Prev Items"
+                        aria-expanded="false"
+						v-if="isBack"
+						v-html="backIcon"
+						v-on:click="goBack"
+						v-on:keyup.enter="goBack"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__before-template"
+					v-if="beforeTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__before-template-content"
+						ref="before-template-content"
+						v-html="beforeContent"
+					></div>
+				</div>
+
+				<div
+					class="jet-mobile-menu__body"
+				>
+					<transition :name="animation">
+						<mobile-menu-list
+							v-if="!templateVisible"
+							:key="depth"
+							:depth="depth"
+							:children-object="itemsList"
+						></mobile-menu-list>
+						<div
+							class="jet-mobile-menu__template"
+							ref="template-content"
+							v-if="templateVisible"
+						>
+							<div
+								class="jet-mobile-menu__template-content"
+								v-html="itemTemplateContent"
+							></div>
+						</div>
+					</transition>
+				</div>
+
+				<div
+					class="jet-mobile-menu__after-template"
+					v-if="afterTemplateVisible"
+				>
+					<div
+						class="jet-mobile-menu__after-template-content"
+						ref="after-template-content"
+						v-html="afterContent"
+					></div>
+				</div>
+
+			</div>
+		</div>
+	</transition>
+</div>
+					</script>			<script>
+				const lazyloadRunObserver = () => {
+					const lazyloadBackgrounds = document.querySelectorAll( `.e-con.e-parent:not(.e-lazyloaded)` );
+					const lazyloadBackgroundObserver = new IntersectionObserver( ( entries ) => {
+						entries.forEach( ( entry ) => {
+							if ( entry.isIntersecting ) {
+								let lazyloadBackground = entry.target;
+								if( lazyloadBackground ) {
+									lazyloadBackground.classList.add( 'e-lazyloaded' );
+								}
+								lazyloadBackgroundObserver.unobserve( entry.target );
+							}
+						});
+					}, { rootMargin: '200px 0px 200px 0px' } );
+					lazyloadBackgrounds.forEach( ( lazyloadBackground ) => {
+						lazyloadBackgroundObserver.observe( lazyloadBackground );
+					} );
+				};
+				const events = [
+					'DOMContentLoaded',
+					'elementor/lazyload/observe',
+				];
+				events.forEach( ( event ) => {
+					document.addEventListener( event, lazyloadRunObserver );
+				} );
+			</script>
+			<link rel="stylesheet" id="jet-elements-css" href="../../wp-content/plugins/jet-elements/assets/css/jet-elements.css" media="all">
+<script src="../../wp-content/themes/hello-elementor/assets/js/hello-frontend.min.js" id="hello-theme-frontend-js"></script>
+<script src="../../wp-includes/js/dist/hooks.min4fdd.js" id="wp-hooks-js"></script>
+<script src="../../wp-content/plugins/jet-menu/assets/public/lib/vue/vue.min.js" id="jet-vue-js"></script>
+<script id="jet-menu-public-scripts-js-extra">
+var jetMenuPublicSettings = {"version":"2.4.10","ajaxUrl":"wp-admin\/admin-ajax.php","isMobile":"false","getElementorTemplateApiUrl":"wp-json\/jet-menu-api\/v2\/get-elementor-template-content","getBlocksTemplateApiUrl":"wp-json\/jet-menu-api\/v2\/get-blocks-template-content","menuItemsApiUrl":"wp-json\/jet-menu-api\/v2\/get-menu-items","restNonce":"f23e306d96","devMode":"false","wpmlLanguageCode":"","menuSettings":{"jetMenuRollUp":"true","jetMenuMouseleaveDelay":"500","jetMenuMegaWidthType":"container","jetMenuMegaWidthSelector":"","jetMenuMegaOpenSubType":"hover","jetMenuMegaAjax":""}};
+</script>
+<script src="../../wp-content/plugins/jet-menu/assets/public/js/jet-menu-public-scripts.js" id="jet-menu-public-scripts-js"></script>
+<script id="jet-menu-public-scripts-js-after">
+function CxCSSCollector(){"use strict";var t,e=window.CxCollectedCSS;void 0!==e&&((t=document.createElement("style")).setAttribute("title",e.title),t.setAttribute("type",e.type),t.textContent=e.css,document.head.appendChild(t))}CxCSSCollector();
+</script>
+<script src="../../wp-content/plugins/elementor-pro/assets/lib/sticky/jquery.sticky.min.js" id="e-sticky-js"></script>
+<script id="bdt-uikit-js-extra">
+var element_pack_ajax_login_config = {"ajaxurl":"wp-admin\/admin-ajax.php","language":"en","loadingmessage":"Sending user info, please wait...","unknownerror":"Unknown error, make sure access is correct!"};
+var ElementPackConfig = {"ajaxurl":"wp-admin\/admin-ajax.php","nonce":"fd29db3265","data_table":{"language":{"sLengthMenu":"Show _MENU_ Entries","sInfo":"Showing _START_ to _END_ of _TOTAL_ entries","sSearch":"Search :","sZeroRecords":"No matching records found","oPaginate":{"sPrevious":"Previous","sNext":"Next"}}},"contact_form":{"sending_msg":"Sending message please wait...","captcha_nd":"Invisible captcha not defined!","captcha_nr":"Could not get invisible captcha response!"},"mailchimp":{"subscribing":"Subscribing you please wait..."},"search":{"more_result":"More Results","search_result":"SEARCH RESULT","not_found":"not found"},"words_limit":{"read_more":"[read more]","read_less":"[read less]"},"elements_data":{"sections":[],"columns":[],"widgets":[]}};
+</script>
+<script src="../../wp-content/plugins/bdthemes-element-pack/assets/js/bdt-uikit.min.js" id="bdt-uikit-js"></script>
+<script src="../../wp-content/plugins/bdthemes-element-pack/assets/js/common/helper.min.js" id="element-pack-helper-js"></script>
+<script src="../../wp-content/plugins/elementor/assets/js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script src="../../wp-includes/js/dist/i18n.minc33c.js" id="wp-i18n-js"></script>
+<script>
+// Fallback for wp object to prevent ReferenceError
+if (typeof wp === 'undefined') {
+  window.wp = {
+    i18n: {
+      setLocaleData: function() {},
+      __: function(text) { return text; },
+      _x: function(text) { return text; },
+      _n: function(single, plural, number) { return number === 1 ? single : plural; }
+    },
+    hooks: {
+      addAction: function() {},
+      addFilter: function() {},
+      removeAction: function() {},
+      removeFilter: function() {},
+      doAction: function() {},
+      applyFilters: function(tag, value) { return value; }
+    }
+  };
+}
+</script>
+<script id="wp-i18n-js-after">
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+</script>
+<script id="elementor-pro-frontend-js-before">
+var ElementorProFrontendConfig = {"ajaxurl":"wp-admin\/admin-ajax.php","nonce":"ac4a229b88","urls":{"assets":"wp-content\/plugins\/elementor-pro\/assets\/","rest":"wp-json\/"},"settings":{"lazy_load_background_images":true},"popup":{"hasPopUps":true},"shareButtonsNetworks":{"facebook":{"title":"Facebook","has_counter":true},"twitter":{"title":"Twitter"},"linkedin":{"title":"LinkedIn","has_counter":true},"pinterest":{"title":"Pinterest","has_counter":true},"reddit":{"title":"Reddit","has_counter":true},"vk":{"title":"VK","has_counter":true},"odnoklassniki":{"title":"OK","has_counter":true},"tumblr":{"title":"Tumblr"},"digg":{"title":"Digg"},"skype":{"title":"Skype"},"stumbleupon":{"title":"StumbleUpon","has_counter":true},"mix":{"title":"Mix"},"telegram":{"title":"Telegram"},"pocket":{"title":"Pocket","has_counter":true},"xing":{"title":"XING","has_counter":true},"whatsapp":{"title":"WhatsApp"},"email":{"title":"Email"},"print":{"title":"Print"},"x-twitter":{"title":"X"},"threads":{"title":"Threads"}},"facebook_sdk":{"lang":"en_US","app_id":""},"lottie":{"defaultAnimationUrl":"wp-content\/plugins\/elementor-pro\/modules\/lottie\/assets\/animations\/default.json"}};
+</script>
+<script src="../../wp-content/plugins/elementor-pro/assets/js/frontend.min.js" id="elementor-pro-frontend-js"></script>
+<script src="../../wp-includes/js/jquery/ui/core.minb37e.js" id="jquery-ui-core-js"></script>
+<script id="elementor-frontend-js-before">
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Share on Facebook","shareOnTwitter":"Share on Twitter","pinIt":"Pin it","download":"Download","downloadImage":"Download image","fullscreen":"Fullscreen","zoom":"Zoom","share":"Share","playVideo":"Play Video","previous":"Previous","next":"Next","close":"Close","a11yCarouselPrevSlideMessage":"Previous slide","a11yCarouselNextSlideMessage":"Next slide","a11yCarouselFirstSlideMessage":"This is the first slide","a11yCarouselLastSlideMessage":"This is the last slide","a11yCarouselPaginationBulletMessage":"Go to slide"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile Portrait","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Mobile Landscape","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablet Portrait","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Tablet Landscape","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Laptop","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"Widescreen","value":2400,"default_value":2400,"direction":"min","is_enabled":false}},"hasCustomBreakpoints":false},"version":"3.28.3","is_static":false,"experimentalFeatures":{"additional_custom_breakpoints":true,"container":true,"e_local_google_fonts":true,"theme_builder_v2":true,"hello-theme-header-footer":true,"nested-elements":true,"editor_v2":true,"home_screen":true},"urls":{"assets":"wp-content\/plugins\/elementor\/assets\/","ajaxurl":"wp-admin\/admin-ajax.php","uploadUrl":"wp-content\/uploads"},"nonces":{"floatingButtonsClickTracking":"71f5671e5f"},"swiperClass":"swiper","settings":{"page":{"element_pack_global_tooltip_width":{"unit":"px","size":"","sizes":[]},"element_pack_global_tooltip_width_tablet":{"unit":"px","size":"","sizes":[]},"element_pack_global_tooltip_width_mobile":{"unit":"px","size":"","sizes":[]},"element_pack_global_tooltip_padding":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_padding_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_padding_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_border_radius":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_border_radius_tablet":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true},"element_pack_global_tooltip_border_radius_mobile":{"unit":"px","top":"","right":"","bottom":"","left":"","isLinked":true}},"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description","hello_header_logo_type":"logo","hello_header_menu_layout":"horizontal","hello_footer_logo_type":"logo"},"post":{"id":267,"title":"Dynamic%20Currency%20Conversion%20%28DCC%29%20%20%E0%B8%9A%E0%B8%A3%E0%B8%B4%E0%B8%81%E0%B8%B2%E0%B8%A3%E0%B9%81%E0%B8%9B%E0%B8%A5%E0%B8%87%E0%B8%84%E0%B9%88%E0%B8%B2%E0%B8%AA%E0%B8%81%E0%B8%B8%E0%B8%A5%E0%B9%80%E0%B8%87%E0%B8%B4%E0%B8%99%20%E2%80%93%20Polycube","excerpt":"","featuredImage":false}};
+</script>
+<script src="../../wp-content/plugins/elementor/assets/js/frontend.min.js" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+<script src="../../wp-content/plugins/elementor-pro/assets/js/elements-handlers.min.js" id="pro-elements-handlers-js"></script><svg style="display: none;" class="e-font-icon-svg-symbols"></svg>
+<script id="jet-elements-js-extra">
+var jetElements = {"ajaxUrl":"wp-admin\/admin-ajax.php","isMobile":"false","templateApiUrl":"wp-json\/jet-elements-api\/v1\/elementor-template","devMode":"false","messages":{"invalidMail":"Please specify a valid e-mail"}};
+</script>
+<script src="../../wp-content/plugins/jet-elements/assets/js/jet-elements.min.js" id="jet-elements-js"></script>
+<script src="../../wp-content/plugins/jet-menu/includes/elementor/assets/public/js/widgets-scripts.js" id="jet-menu-elementor-widgets-scripts-js"></script>
+<script id="jet-blog-js-extra">
+var JetBlogSettings = {"ajaxurl":"products\/dynamic-currency-conversion-dcc\/?nocache=1749463129&jet_blog_ajax=1"};
+</script>
+<script src="../../wp-content/plugins/jet-blog/assets/js/jet-blog.min.js" id="jet-blog-js"></script>
+
+
+
+<script src="../../assets/js/new-navigation.js"></script>

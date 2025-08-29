@@ -1,0 +1,336 @@
+/**
+ * Counter and Carousel Styles Fix
+ * CSS fixes for counter and carousel display issues
+ */
+
+/* Counter Fixes */
+.elementor-counter {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.elementor-counter-title {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.elementor-counter-number-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+    font-weight: 700;
+    color: #2196F3;
+    line-height: 1;
+}
+
+.elementor-counter-number {
+    display: inline-block;
+    font-variant-numeric: tabular-nums;
+    min-width: 1ch;
+}
+
+.elementor-counter-number-prefix,
+.elementor-counter-number-suffix {
+    display: inline-block;
+    font-size: 0.8em;
+}
+
+/* Responsive counter styles */
+@media (max-width: 768px) {
+    .elementor-counter-number-wrapper {
+        font-size: 36px;
+    }
+    
+    .elementor-counter-title {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .elementor-counter-number-wrapper {
+        font-size: 28px;
+    }
+}
+
+/* Carousel Fixes */
+.bdt-ep-carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.bdt-ep-carousel .swiper-container,
+.bdt-ep-carousel .swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.bdt-ep-carousel .swiper-wrapper {
+    display: flex;
+    align-items: stretch;
+}
+
+.bdt-ep-carousel .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: stretch;
+}
+
+/* Navigation buttons */
+.bdt-navigation-next,
+.bdt-navigation-prev {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 44px;
+    height: 44px;
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.bdt-navigation-next:hover,
+.bdt-navigation-prev:hover {
+    background: rgba(0, 0, 0, 0.8);
+    transform: translateY(-50%) scale(1.1);
+}
+
+.bdt-navigation-next {
+    right: 10px;
+}
+
+.bdt-navigation-prev {
+    left: 10px;
+}
+
+.bdt-navigation-next::after {
+    content: '→';
+}
+
+.bdt-navigation-prev::after {
+    content: '←';
+}
+
+/* Pagination */
+.swiper-pagination {
+    bottom: 10px;
+    text-align: center;
+}
+
+.swiper-pagination-bullet {
+    width: 8px;
+    height: 8px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.swiper-pagination-bullet-active {
+    background: #2196F3;
+    transform: scale(1.2);
+}
+
+/* News Carousel Specific */
+.elementor-widget-bdt-carousel .bdt-ep-carousel-item {
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    margin: 0 10px;
+    background: white;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.elementor-widget-bdt-carousel .bdt-ep-carousel-item:hover {
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-2px);
+}
+
+.bdt-ep-carousel-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 4px;
+    margin-bottom: 15px;
+}
+
+.bdt-ep-carousel-item h3 {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    color: #333;
+    line-height: 1.4;
+}
+
+.bdt-ep-carousel-item p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+    flex-grow: 1;
+}
+
+.bdt-ep-carousel-item .read-more {
+    color: #2196F3;
+    text-decoration: none;
+    font-weight: 600;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.bdt-ep-carousel-item .read-more:hover {
+    color: #1976D2;
+}
+
+/* Responsive carousel */
+@media (max-width: 1024px) {
+    .bdt-navigation-next,
+    .bdt-navigation-prev {
+        width: 36px;
+        height: 36px;
+        font-size: 14px;
+    }
+    
+    .bdt-ep-carousel-item {
+        padding: 15px;
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .bdt-navigation-next,
+    .bdt-navigation-prev {
+        display: none;
+    }
+    
+    .bdt-ep-carousel-item {
+        padding: 10px;
+        margin: 0;
+    }
+    
+    .bdt-ep-carousel-item img {
+        height: 150px;
+    }
+    
+    .bdt-ep-carousel-item h3 {
+        font-size: 16px;
+    }
+}
+
+/* Fallback styles for when Swiper is not available */
+.carousel-fallback .swiper-wrapper {
+    display: flex !important;
+    transition: transform 0.3s ease !important;
+}
+
+.carousel-fallback .swiper-slide {
+    flex: 0 0 33.333% !important;
+    max-width: 33.333% !important;
+}
+
+@media (max-width: 1024px) {
+    .carousel-fallback .swiper-slide {
+        flex: 0 0 50% !important;
+        max-width: 50% !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .carousel-fallback .swiper-slide {
+        flex: 0 0 100% !important;
+        max-width: 100% !important;
+    }
+}
+
+/* Animation for counters */
+@keyframes counterFadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.elementor-counter {
+    animation: counterFadeIn 0.6s ease-out;
+}
+
+/* Loading state */
+.carousel-loading {
+    position: relative;
+    min-height: 200px;
+}
+
+.carousel-loading::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 32px;
+    height: 32px;
+    margin: -16px 0 0 -16px;
+    border: 3px solid #f3f3f3;
+    border-top: 3px solid #2196F3;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* Error state */
+.carousel-error {
+    padding: 20px;
+    text-align: center;
+    color: #666;
+    font-style: italic;
+}
+
+/* Fix for missing icons */
+.bdt-navigation-next:empty::after,
+.bdt-navigation-prev:empty::after {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+/* Ensure proper spacing between carousel items */
+.bdt-ep-carousel-skin-default .swiper-slide {
+    margin-right: 20px;
+}
+
+.bdt-ep-carousel-skin-default .swiper-slide:last-child {
+    margin-right: 0;
+}
+
+/* Fix for potential overflow issues */
+.elementor-widget-bdt-carousel {
+    overflow: hidden;
+}
+
+.bdt-ep-carousel {
+    width: 100%;
+    position: relative;
+}

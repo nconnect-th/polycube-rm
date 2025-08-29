@@ -1,0 +1,586 @@
+/* Timeline scroll animation styles - independent from UIkit */
+/* Enhanced with progressive animation support */
+
+/* Make sure containers are visible but content can be animated */
+.bdt-timeline-item-main-container {
+    visibility: visible !important;
+    opacity: 1 !important;
+}
+
+/* Default transition for timeline items with enhanced animation */
+.bdt-timeline-item-main {
+    transition: opacity 0.8s ease, transform 0.8s ease;
+    /* Default is invisible until triggered by JavaScript */
+    will-change: opacity, transform;
+    transform-origin: center;
+}
+
+/* Timeline List Background - สีเขียวเข้ม #006400 */
+.bdt-timeline-desc {
+    background: #006400 !important;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    color: white !important;
+}
+
+/* Text color for timeline content */
+.bdt-timeline-desc p {
+    color: white !important;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+/* Timeline meta (year) styling */
+.bdt-timeline-meta li {
+    font-weight: bold;
+    color: #ffffff !important;
+    font-size: 1.3em;
+    background: rgba(255,255,255,0.2);
+    padding: 5px 15px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+/* Timeline Icons - ตรงกลาง timeline วางบนเส้นแนวตั้ง */
+.bdt-timeline.bdt-timeline-skin-default .bdt-timeline-item-main-wrapper .bdt-timeline-icon,
+.bdt-timeline-icon {
+    visibility: visible !important;
+    transition: opacity 0.5s ease, transform 0.3s ease;
+    will-change: opacity, transform;
+    background: #006400;
+    border-radius: 50%;
+    padding: 0 !important;
+    border: 3px solid #ffffff;
+    width: 60px !important;
+    height: 60px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    box-sizing: border-box !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    z-index: 10 !important;
+}
+
+/* Timeline wrapper positioning */
+.bdt-timeline-item-main-wrapper {
+    position: relative !important;
+}
+
+/* Timeline container - ให้แน่ใจว่า timeline อยู่ตรงกลาง */
+.bdt-timeline {
+    position: relative !important;
+    width: 100% !important;
+}
+
+/* Ensure timeline items maintain center alignment */
+.bdt-timeline-item {
+    position: relative !important;
+    width: 100% !important;
+}
+
+/* Timeline items alternating left and right */
+.bdt-timeline-item:nth-child(odd) .bdt-timeline-item-main-container {
+    margin-left: 0 !important;
+    margin-right: calc(50% + 40px) !important;
+    text-align: right !important;
+}
+
+.bdt-timeline-item:nth-child(even) .bdt-timeline-item-main-container {
+    margin-left: calc(50% + 40px) !important;
+    margin-right: 0 !important;
+    text-align: left !important;
+}
+
+/* Arrow positioning for alternating layout */
+.bdt-timeline-item:nth-child(odd) .bdt-timeline-arrow {
+    right: -15px !important;
+    left: auto !important;
+    border-left-color: transparent !important;
+    border-right-color: #006400 !important;
+}
+
+.bdt-timeline-item:nth-child(even) .bdt-timeline-arrow {
+    left: -15px !important;
+    right: auto !important;
+    border-right-color: transparent !important;
+    border-left-color: #006400 !important;
+}
+
+/* Timeline main vertical line - ยาวต่อเนื่องตลอดทั้งหมด */
+.bdt-timeline::before {
+    content: '' !important;
+    position: absolute !important;
+    left: 50% !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 4px !important;
+    background: #006400 !important;
+    transform: translateX(-50%) !important;
+    z-index: 1 !important;
+}
+
+/* Hide individual timeline lines */
+.bdt-timeline-line {
+    display: none !important;
+}
+
+.bdt-timeline-line span {
+    background: #006400 !important;
+    width: 100% !important;
+    height: 100% !important;
+    display: block !important;
+}
+
+/* SVG inside icons - ขนาดเท่ากันและอยู่ตรงกลางสมบูรณ์ */
+.bdt-timeline.bdt-timeline-skin-default .bdt-timeline-item-main-wrapper .bdt-timeline-icon svg,
+.bdt-timeline.bdt-timeline-skin-default .bdt-timeline-item-main-wrapper .bdt-timeline-icon span,
+.bdt-timeline-icon svg,
+.bdt-timeline-icon span {
+    width: 30px !important;
+    height: 30px !important;
+    max-width: 30px !important;
+    max-height: 30px !important;
+    position: absolute !important;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+    display: block !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+/* Ensure SVG paths are visible */
+.bdt-timeline-icon svg path {
+    fill: currentColor !important;
+    color: white !important;
+}
+
+/* Timeline lines removed - already defined above */
+
+/* Timeline arrows with fade transition */
+.bdt-timeline-arrow {
+    visibility: visible !important;
+    transition: opacity 0.4s ease;
+    border-color: #006400 !important;
+}
+
+/* Animation styles for left and right items */
+.bdt-timeline-item.left-part .bdt-timeline-item-main[data-animation="slide-right"] {
+    transform: translateX(50px);
+}
+
+.bdt-timeline-item.right-part .bdt-timeline-item-main[data-animation="slide-left"] {
+    transform: translateX(-50px);
+}
+
+/* Enhanced hover effects */
+.bdt-timeline-item-main:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,100,0,0.3);
+}
+
+.bdt-timeline-desc:hover {
+    background: #004d00 !important;
+    transform: scale(1.02);
+}
+
+/* Smooth icon hover effect - รักษา center position */
+.bdt-timeline-icon:hover {
+    background: #004d00;
+    box-shadow: 0 4px 15px rgba(0,100,0,0.4);
+    transform: translate(-50%, -50%) scale(1.1) !important;
+}
+
+/* Icon hover effect with centered SVG */
+.bdt-timeline-icon:hover svg,
+.bdt-timeline-icon:hover span {
+    transform: translate(-50%, -50%) scale(1.1) !important;
+}
+
+/* Timeline date styling - อยู่ระหว่าง timeline items */
+.bdt-timeline-date,
+.bdt-timeline-date.bdt-text-right {
+    font-weight: bold !important;
+    color: #006400 !important;
+    font-size: 1.2em !important;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.1) !important;
+    position: absolute !important;
+    left: 50% !important;
+    bottom: -30px !important;
+    transform: translateX(-50%) !important;
+    background: white !important;
+    padding: 5px 10px !important;
+    border-radius: 15px !important;
+    border: 2px solid #006400 !important;
+    z-index: 15 !important;
+    text-align: center !important;
+    white-space: nowrap !important;
+    box-shadow: 0 2px 8px rgba(0,100,0,0.2) !important;
+}
+
+/* Timeline container height adjustment */
+.bdt-timeline {
+    min-height: 100vh !important;
+    position: relative !important;
+    padding: 50px 0 !important;
+}
+
+/* Timeline item spacing for dates */
+.bdt-timeline-item {
+    margin-bottom: 60px !important;
+    position: relative !important;
+}
+
+/* Progressive reveal keyframes */
+@keyframes timelineSlideInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-50px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes timelineSlideInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(50px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0) scale(1);
+    }
+}
+
+@keyframes timelineLineGrow {
+    0% {
+        height: 0;
+    }
+    100% {
+        height: 100%;
+    }
+}
+
+@keyframes timelineFadeIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+/* Individual timeline item animation */
+.bdt-timeline-item-main.animate-in {
+    animation: timelineSlideIn 0.8s ease-out forwards;
+}
+
+@keyframes timelineSlideIn {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.95);
+    }
+    50% {
+        opacity: 0.7;
+        transform: translateY(-5px) scale(1.02);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Scroll direction animations */
+.bdt-timeline-item-main.scroll-out-up {
+    animation: slideOutUp 0.6s ease-in forwards;
+}
+
+.bdt-timeline-item-main.scroll-out-down {
+    animation: slideOutDown 0.6s ease-in forwards;
+}
+
+@keyframes slideOutUp {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-50px) scale(0.9);
+    }
+}
+
+@keyframes slideOutDown {
+    0% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(50px) scale(0.9);
+    }
+}
+
+/* Scroll back in animations */
+.bdt-timeline-item-main.scroll-in-up {
+    animation: slideInFromUp 0.8s ease-out forwards;
+}
+
+.bdt-timeline-item-main.scroll-in-down {
+    animation: slideInFromDown 0.8s ease-out forwards;
+}
+
+@keyframes slideInFromUp {
+    0% {
+        opacity: 0;
+        transform: translateY(-30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+@keyframes slideInFromDown {
+    0% {
+        opacity: 0;
+        transform: translateY(30px) scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
+
+/* Fallback styles to ensure visibility on all browsers */
+@media (prefers-reduced-motion: reduce) {
+    .bdt-timeline-item-main,
+    .bdt-timeline-icon,
+    .bdt-timeline-arrow,
+    .bdt-timeline-line span {
+        opacity: 1 !important;
+        transform: none !important;
+        transition: none !important;
+        animation: none !important;
+    }
+    
+    .bdt-timeline-icon svg,
+    .bdt-timeline-icon span {
+        transform: translate(-50%, -50%) !important;
+    }
+}
+
+/* Mobile optimization - timeline always visible on small screens */
+@media (max-width: 768px) {
+    .bdt-timeline-item-main {
+        opacity: 1 !important;
+        transform: translateX(0) !important;
+    }
+    
+    .bdt-timeline-icon,
+    .bdt-timeline-arrow {
+        opacity: 1 !important;
+    }
+    
+    .bdt-timeline-line span {
+        height: 100% !important;
+    }
+    
+    .bdt-timeline-desc {
+        margin: 10px;
+        width: 100% !important;
+    }
+    
+    /* Full width timeline content for mobile */
+    .bdt-timeline-desc.bdt-padding {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 15px !important;
+        box-sizing: border-box !important;
+    }
+    
+    /* Reset timeline item positioning for mobile */
+    .bdt-timeline-item:nth-child(odd) .bdt-timeline-item-main-container,
+    .bdt-timeline-item:nth-child(even) .bdt-timeline-item-main-container {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        text-align: center !important;
+        width: 100% !important;
+    }
+    
+    /* Center timeline on mobile */
+    .bdt-timeline.bdt-timeline-center {
+        text-align: center !important;
+        padding: 20px 10px !important;
+    }
+    
+    /* Smaller icons on mobile */
+    .bdt-timeline.bdt-timeline-skin-default .bdt-timeline-item-main-wrapper .bdt-timeline-icon,
+    .bdt-timeline-icon {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+    
+    .bdt-timeline.bdt-timeline-skin-default .bdt-timeline-item-main-wrapper .bdt-timeline-icon svg,
+    .bdt-timeline.bdt-timeline-skin-default .bdt-timeline-item-main-wrapper .bdt-timeline-icon span,
+    .bdt-timeline-icon svg,
+    .bdt-timeline-icon span {
+        display: none !important;
+    }
+}
+
+/* Enhanced Mobile Timeline Layout */
+@media (max-width: 767px) {
+    /* Stack timeline items vertically with full width */
+    .bdt-timeline-item {
+        width: 100% !important;
+        margin: 0 0 30px 0 !important;
+        display: block !important;
+    }
+    
+    .bdt-timeline-item-main-container {
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 15px !important;
+        text-align: center !important;
+        position: relative !important;
+    }
+    
+    .bdt-timeline-desc.bdt-padding {
+        width: calc(100% - 30px) !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+        padding: 20px !important;
+        border-radius: 12px !important;
+        box-shadow: 0 4px 15px rgba(0,100,0,0.2) !important;
+    }
+    
+    /* Hide arrows on mobile for cleaner look */
+    .bdt-timeline-arrow {
+        display: none !important;
+    }
+    
+    /* Center vertical line and reduce its visibility on mobile */
+    .bdt-timeline::before {
+        left: 30px !important;
+        width: 2px !important;
+        opacity: 0.3 !important;
+    }
+    
+    /* Adjust icon position for mobile */
+    .bdt-timeline-icon {
+        display: none !important;
+        visibility: hidden !important;
+    }
+}
+
+/* Extra small screens */
+@media (max-width: 480px) {
+    .bdt-timeline-desc.bdt-padding {
+        width: calc(100% - 20px) !important;
+        padding: 15px !important;
+        margin: 0 10px !important;
+    }
+    
+    .bdt-timeline.bdt-timeline-center {
+        padding: 20px 5px !important;
+    }
+}
+
+/* Fix for Firefox */
+@-moz-document url-prefix() {
+    .bdt-timeline-item-main-container {
+        opacity: 1 !important;
+    }
+    .bdt-timeline-item-main {
+        opacity: 1 !important;
+        transform: translateX(0) !important;
+    }
+    .bdt-timeline-icon svg,
+    .bdt-timeline-icon span {
+        transform: translate(-50%, -50%) !important;
+    }
+}
+
+/* Fix for Safari */
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .bdt-timeline-item-main-container, 
+        .bdt-timeline-item-main {
+            opacity: 1 !important;
+            transform: translateX(0) !important;
+        }
+        .bdt-timeline-icon svg,
+        .bdt-timeline-icon span {
+            transform: translate(-50%, -50%) !important;
+        }
+    }
+}
+
+/* Additional styling for better visual appearance */
+.bdt-timeline {
+    position: relative;
+}
+
+/* Ensure proper spacing between timeline items */
+.bdt-timeline-item {
+    margin-bottom: 3rem;
+}
+
+/* Timeline container background */
+.bdt-timeline.bdt-timeline-center {
+    padding: 40px 20px;
+    border-radius: 15px;
+}
+
+/* Individual timeline item wrapper styling */
+.bdt-timeline-item-main-wrapper {
+    position: relative;
+}
+
+/* Timeline item content padding */
+.bdt-timeline-desc.bdt-padding {
+    padding: 20px !important;
+    transition: all 0.3s ease !important;
+}
+
+/* Mobile full-width override */
+@media (max-width: 768px) {
+    .bdt-timeline-desc.bdt-padding {
+        width: 100% !important;
+        max-width: none !important;
+        margin: 0 !important;
+        padding: 20px 15px !important;
+        border-radius: 8px !important;
+        box-sizing: border-box !important;
+    }
+}
+
+/* Hide timeline icons completely on mobile and tablet */
+@media (max-width: 1024px) {
+    .bdt-timeline-icon,
+    .bdt-timeline.bdt-timeline-skin-default .bdt-timeline-item-main-wrapper .bdt-timeline-icon {
+        display: none !important;
+        visibility: hidden !important;
+        opacity: 0 !important;
+    }
+    
+    /* Also hide the timeline central line on smaller screens for cleaner look */
+    .bdt-timeline::before {
+        display: none !important;
+    }
+    
+    /* Adjust timeline content positioning without icons */
+    .bdt-timeline-item-main-container {
+        padding-left: 0 !important;
+        margin-left: 0 !important;
+    }
+}

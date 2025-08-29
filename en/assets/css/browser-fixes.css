@@ -1,0 +1,146 @@
+/* Browser compatibility fixes for Safari and older browsers */
+
+/* User-select fixes for Safari */
+.user-select-none,
+[style*="user-select: none"],
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.user-select-auto,
+[style*="user-select: auto"] {
+    -webkit-user-select: auto;
+    -moz-user-select: auto;
+    -ms-user-select: auto;
+    user-select: auto;
+}
+
+.user-select-unset,
+[style*="user-select: unset"] {
+    -webkit-user-select: unset;
+    -moz-user-select: unset;
+    -ms-user-select: unset;
+    user-select: unset;
+}
+
+/* Global user-select fixes */
+html {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Text selection for content areas */
+p, h1, h2, h3, h4, h5, h6, span, div[class*="text"], .elementor-text-editor {
+    -webkit-user-select: auto !important;
+    -moz-user-select: auto !important;
+    -ms-user-select: auto !important;
+    user-select: auto !important;
+}
+
+/* Backdrop-filter fixes for Safari */
+.backdrop-blur,
+[style*="backdrop-filter: blur"],
+.elementor-background-overlay {
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+
+/* Contain-intrinsic-size fallback for older Safari */
+img:is([sizes="auto" i], [sizes^="auto," i]) {
+    /* Fallback for older browsers */
+    width: auto;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Only use contain-intrinsic-size on supported browsers */
+@supports (contain-intrinsic-size: 3000px 1500px) {
+    img:is([sizes="auto" i], [sizes^="auto," i]) {
+        contain-intrinsic-size: 3000px 1500px;
+    }
+}
+
+/* Hide utility classes to replace inline styles */
+.elementor-hidden {
+    display: none !important;
+    visibility: hidden !important;
+    height: 0 !important;
+    overflow: hidden !important;
+}
+
+.ssp-hidden {
+    display: none !important;
+}
+
+.svg-symbols-hidden {
+    display: none !important;
+}
+
+/* Video aspect ratio fallback */
+.elementor-background-video-hosted {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Motion effects fallback */
+.elementor-motion-effects-element {
+    transform: translateY(0);
+    transition: transform 100ms ease-in-out;
+}
+
+/* Responsive video container */
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+    overflow: hidden;
+}
+
+.video-container video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Accessibility improvements */
+@media (prefers-reduced-motion: reduce) {
+    .elementor-motion-effects-element {
+        transform: none !important;
+        transition: none !important;
+    }
+    
+    .elementor-background-video-hosted {
+        display: none;
+    }
+}
+
+/* Fix for sticky elements */
+.elementor-sticky {
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+/* Fix for flex containers */
+.e-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.e-con-boxed {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}

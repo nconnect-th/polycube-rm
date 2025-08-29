@@ -1,0 +1,148 @@
+/* Offline Styles for FAQ Page */
+/* Added for better cross-browser compatibility */
+
+/* Enhanced user-select support */
+.no-select {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Offline indicator */
+.offline-notice {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #2196F3;
+    color: white;
+    padding: 8px;
+    text-align: center;
+    font-size: 14px;
+    z-index: 10000000;
+    display: none;
+}
+
+.offline-notice.show {
+    display: block;
+}
+
+/* Fallback styles for when external resources fail to load */
+.fallback-font {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+/* Loading placeholder for images */
+.image-placeholder {
+    background: #f5f5f5;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #666;
+    font-size: 14px;
+}
+
+/* Enhanced button styles for offline mode */
+.btn-offline {
+    background: #007cba;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-offline:hover {
+    background: #005a87;
+}
+
+/* Responsive enhancements */
+@media (max-width: 768px) {
+    .mobile-hidden {
+        display: none !important;
+    }
+    
+    .mobile-full-width {
+        width: 100% !important;
+    }
+}
+
+/* Safari compatibility fixes for index.html linter errors */
+
+/* Fix user-select properties */
+#floik-extension .MuiTooltip-tooltip.MuiTooltip-tooltipArrow .MuiTooltip-arrow,
+#floik-extension .MuiTooltip-popper.MuiTooltip-popperInteractive.MuiTooltip-popperArrow.MuiPopperUnstyled-root {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.floik_ext_Recording-module__container--nWeWP {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+.floik_ext_Recording-module__container--nWeWP.floik_ext_Recording-module__adding-comment--YQfeU {
+    -webkit-user-select: auto !important;
+    user-select: auto !important;
+}
+
+/* Fix backdrop-filter property */
+.floik_ext_Recording-module__container--nWeWP {
+    -webkit-backdrop-filter: blur(7px);
+    backdrop-filter: blur(7px);
+}
+
+/* Additional user-select fixes */
+.floik_ext_Popup-module__dialogContainer--g2xc_ {
+    -webkit-user-select: auto;
+    user-select: auto;
+}
+
+.floik_ext_Popup-module__dialogContainer--g2xc_.floik_ext_Popup-module__isShiftEnabled--cLkj2,
+.floik_ext_Popup-module__dialogContainer--g2xc_.floik_ext_Popup-module__isShiftEnabled--cLkj2 .floik_ext_Popup-module__dialogWrapper--xIyyH {
+    -webkit-user-select: auto !important;
+    user-select: auto !important;
+}
+
+/* Additional option select disabled styling */
+.floik_ext_option_select_disabled {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+/* Fix all additional Safari compatibility issues found in linter */
+
+/* Additional Dialog styling */
+.floik_ext_Dialog-module__dialogRoot--jpzsj {
+    -webkit-user-select: auto;
+    user-select: auto;
+}
+
+/* Additional FloPage styling */
+.floik_ext_newFloPage-container {
+    -webkit-user-select: unset !important;
+    user-select: unset !important;
+}
+
+/* Override all inline styles with Safari-compatible versions */
+[style*="user-select: none"] {
+    -webkit-user-select: none !important;
+    user-select: none !important;
+}
+
+[style*="user-select: auto"] {
+    -webkit-user-select: auto !important;
+    user-select: auto !important;
+}
+
+[style*="user-select: unset"] {
+    -webkit-user-select: unset !important;
+    user-select: unset !important;
+}
+
+[style*="backdrop-filter: blur"] {
+    -webkit-backdrop-filter: blur(7px) !important;
+    backdrop-filter: blur(7px) !important;
+} 
