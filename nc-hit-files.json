@@ -1,0 +1,749 @@
+{
+  "totals": {
+    "other": 1541,
+    "jet-blog-ajax": 91
+  },
+  "files": [
+    {
+      "path": "wp-json/index.html",
+      "hits": 168,
+      "categories": {
+        "other": 168
+      }
+    },
+    {
+      "path": "en/wp-json/index.html",
+      "hits": 141,
+      "categories": {
+        "other": 141
+      }
+    },
+    {
+      "path": "index.html?p=1449.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=2336.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=2404.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=517.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=521.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=2327.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=3.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=519.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=523.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=2348.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=2299.html",
+      "hits": 15,
+      "categories": {
+        "jet-blog-ajax": 1,
+        "other": 14
+      }
+    },
+    {
+      "path": "index.html?p=2364.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=579.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=525.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=2206.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=267.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=2270.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "02-2/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "atv-salesboost-easyprofit/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "products/dynamic-currency-conversion-dcc/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "elementor-2348/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "atv-donate-consumables/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "edc-is/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "elementor-2364/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "psps-is/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "5-mobile/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "elementor-2336/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "vs-credit/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "5-e-com/index.html",
+      "hits": 15,
+      "categories": {
+        "jet-blog-ajax": 1,
+        "other": 14
+      }
+    },
+    {
+      "path": "point-of-sale/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "atv-donate-fund/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "benefits/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=1449.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2336.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2404.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=517.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=521.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2327.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=519.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=523.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2348.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2299.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2364.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=579.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=525.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2206.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=2270.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/02-2/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/atv-salesboost-easyprofit/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/products/dynamic-currency-conversion-dcc/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/elementor-2348/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/atv-donate-consumables/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/edc-is/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/elementor-2364/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/psps-is/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/5-mobile/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/elementor-2336/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/vs-credit/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/5-e-com/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/point-of-sale/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/atv-donate-fund/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/benefits/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/atv-donate-mask-staff/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "atv-donate-mask-staff/index.html",
+      "hits": 15,
+      "categories": {
+        "other": 14,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=614.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=117.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=721.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=345.html",
+      "hits": 14,
+      "categories": {
+        "jet-blog-ajax": 1,
+        "other": 13
+      }
+    },
+    {
+      "path": "index.html?p=113.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=343.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "faq.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "contact/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "products/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "products/electronic-data-capture/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "products/pos-application/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "privacy-policy/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "faq/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "about/index.html",
+      "hits": 14,
+      "categories": {
+        "jet-blog-ajax": 1,
+        "other": 13
+      }
+    },
+    {
+      "path": "news/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=614.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=345.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=343.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/products/electronic-data-capture/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/products/pos-application/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/faq/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/about/index.html",
+      "hits": 14,
+      "categories": {
+        "other": 13,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=111.html",
+      "hits": 13,
+      "categories": {
+        "other": 12,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "en/index.html?p=267.html",
+      "hits": 13,
+      "categories": {
+        "other": 12,
+        "jet-blog-ajax": 1
+      }
+    },
+    {
+      "path": "index.html?p=111.html",
+      "hits": 1,
+      "categories": {
+        "jet-blog-ajax": 1
+      }
+    }
+  ]
+}
