@@ -688,11 +688,13 @@
                     class="elementor-nav-menu--main elementor-nav-menu__container elementor-nav-menu--layout-horizontal e--pointer-underline e--animation-fade">
                     <ul id="menu-1-c9d7954" class="elementor-nav-menu">
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-124">
-                        <a href="index.html" class="elementor-item">หน้าหลัก</a></li>
+                        <a href="index.html" class="elementor-item">หน้าหลัก</a>
+                      </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a
                           href="index.html%3Fp=111.html" class="elementor-item">เกี่ยวกับเรา</a></li>
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2589">
-                        <a href="index.html#services" class="elementor-item elementor-item-anchor">บริการ</a></li>
+                        <a href="index.html#services" class="elementor-item elementor-item-anchor">บริการ</a>
+                      </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-743"><a
                           href="index.html%3Fp=614.html" class="elementor-item">คำถามที่พบบ่อย</a></li>
                     </ul>
@@ -706,12 +708,14 @@
                   <nav class="elementor-nav-menu--dropdown elementor-nav-menu__container" aria-hidden="true">
                     <ul id="menu-2-c9d7954" class="elementor-nav-menu">
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-124">
-                        <a href="index.html" class="elementor-item" tabindex="-1">หน้าหลัก</a></li>
+                        <a href="index.html" class="elementor-item" tabindex="-1">หน้าหลัก</a>
+                      </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-123"><a
                           href="index.html%3Fp=111.html" class="elementor-item" tabindex="-1">เกี่ยวกับเรา</a></li>
                       <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home menu-item-2589">
                         <a href="index.html#services" class="elementor-item elementor-item-anchor"
-                          tabindex="-1">บริการ</a></li>
+                          tabindex="-1">บริการ</a>
+                      </li>
                       <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-743"><a
                           href="index.html%3Fp=614.html" class="elementor-item" tabindex="-1">คำถามที่พบบ่อย</a></li>
                     </ul>
@@ -1531,42 +1535,8 @@
   </script>
   <script src="wp-content/plugins/jet-blog/assets/js/jet-blog.min.js%3Fver=2.4.3.1" id="jet-blog-js"></script>
 
-  <!-- Social Media Sharing Functions -->
-  <script>
-    function shareOnFacebook() {
-      const url = encodeURIComponent(window.location.href);
-      const title = encodeURIComponent(document.title);
-      const facebookUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
-      window.open(facebookUrl, 'facebook-share', 'width=580,height=400,scrollbars=yes,resizable=yes');
-    }
-
-    function shareOnTwitter() {
-      const url = encodeURIComponent(window.location.href);
-      const title = encodeURIComponent(document.title);
-      const twitterUrl = `https://twitter.com/intent/tweet?url=${url}&text=${title}`;
-      window.open(twitterUrl, 'twitter-share', 'width=580,height=400,scrollbars=yes,resizable=yes');
-    }
-
-    function shareOnLinkedIn() {
-      const url = encodeURIComponent(window.location.href);
-      const title = encodeURIComponent(document.title);
-      const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
-      window.open(linkedinUrl, 'linkedin-share', 'width=580,height=400,scrollbars=yes,resizable=yes');
-    }
-
-    // Add keyboard event listeners for accessibility
-    document.addEventListener('DOMContentLoaded', function () {
-      const shareButtons = document.querySelectorAll('.elementor-share-btn');
-      shareButtons.forEach(button => {
-        button.addEventListener('keypress', function (e) {
-          if (e.key === 'Enter' || e.key === ' ') {
-            e.preventDefault();
-            this.click();
-          }
-        });
-      });
-    });
-  </script>
+  <!-- Social Media Sharing Script -->
+  <script src="assets/js/social-sharing.js"></script>
 
 </body>
 
